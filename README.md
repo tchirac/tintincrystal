@@ -1,7 +1,7 @@
 # Tintin Crystal [![Build Status][travis-badge]][travis]
 
 This is based on a disassembly of Pokémon Crystal.
-- **Discord:** [pret][discordtintincrystal]
+- **Discord:** [tintincrystal][discordtintincrystal]
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
