@@ -3,6 +3,7 @@
 This parody is based on a disassembly of Pokémon Crystal.
 - **Join the Discord:** [tintincrystal][discordtintincrystal]
 
+Build the gbc file and run it from an gameboy emulator.
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
 ## See also Pokémon Crystal
