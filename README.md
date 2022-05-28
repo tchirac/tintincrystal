@@ -1,7 +1,7 @@
 # Tintin Crystal 
 
-This is based on a disassembly of Pokémon Crystal.
-- **Discord:** [tintincrystal][discordtintincrystal]
+This parody is based on a disassembly of Pokémon Crystal.
+- **Join the Discord:** [tintincrystal][discordtintincrystal]
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
@@ -13,11 +13,14 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 - [**Wiki**][wiki] (includes [tutorials][tutorials])
 - **Discord:** [pret][discord]
 
+
+[discordtintincrystal]: https://discord.gg/Acqf3fSF
+
 [pokecrystal]: https://github.com/pret/pokecrystal
 [docs]: https://pret.github.io/pokecrystal/
 [wiki]: https://github.com/pret/pokecrystal/wiki
 [tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
 [discord]: https://discord.gg/d5dubZ3
-[discordtintincrystal]: https://discord.gg/Acqf3fSF
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
-# tintincrystal
+
+
