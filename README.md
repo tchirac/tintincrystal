@@ -15,7 +15,7 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 - **Discord:** [pret][discord]
 
 
-[discordtintincrystal]: https://discord.gg/Acqf3fSF
+[discordtintincrystal]: https://discord.gg/tZhdxvu4
 
 [pokecrystal]: https://github.com/pret/pokecrystal
 [docs]: https://pret.github.io/pokecrystal/
