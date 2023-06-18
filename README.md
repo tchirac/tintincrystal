@@ -21,7 +21,7 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 [docs]: https://pret.github.io/pokecrystal/
 [wiki]: https://github.com/pret/pokecrystal/wiki
 [tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
-[discord]: https://discord.gg/d5dubZ3
+[discord]: https://discord.gg/tZhdxvu4 
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
 
 
