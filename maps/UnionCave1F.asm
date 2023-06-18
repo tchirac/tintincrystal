@@ -147,7 +147,7 @@ HikerDanielBeatenText:
 
 HikerDanielAfterBattleText:
 	text "I was conned into"
-	line "buying a SLOWPOKE-"
+	line "buying a SLOWPOKETAIL-"
 	cont "TAIL."
 
 	para "I feel sorry for"
@@ -195,7 +195,7 @@ FirebreatherRayAfterBattleText:
 	done
 
 UnionCave1FUnusedSignText:
-	text "UNION CAVE"
+	text "Zmyhlpathes"
 	done
 
 UnionCave1F_MapEvents:

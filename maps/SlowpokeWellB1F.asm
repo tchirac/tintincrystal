@@ -143,179 +143,140 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Hey there,"
+	text "Ah vous voici,"
 	line "<PLAYER>!"
 
-	para "The guard up top"
-	line "took off when I"
-	cont "shouted at him."
+	para "La visite peut"
+	line "commencer."
 
-	para "But then I took a"
-	line "tumble down the"
-	cont "WELL."
+	para "Assurez-vous de"
+	line "parler ä tous"
+	cont "les guides."
 
-	para "I slammed down"
-	line "hard on my back,"
-	cont "so I can't move."
-
-	para "Rats! If I were"
-	line "fit, my #MON"
-
-	para "would've punished"
-	line "them…"
-
-	para "Ah, it can't be"
-	line "helped."
-
-	para "<PLAYER>, show them"
-	line "how gutsy you are"
-	cont "in my place!"
-	done
-
-KurtLeaveSlowpokeWellText:
-	text "KURT: Way to go,"
-	line "<PLAYER>!"
-
-	para "TEAM ROCKET has"
-	line "taken off."
-
-	para "My back's better"
-	line "too. Let's get out"
-	cont "of here."
+	para "Bonne visite!"
 	done
 
 GruntM29SeenText:
-	text "Darn! I was stand-"
-	line "ing guard up top"
+	text "BONJOUR ET BIEN-"
+	line "VENUE A LA MINE"
+	cont "D'URANIUM!!!!!"
 
-	para "when some old coot"
-	line "yelled at me."
-
-	para "He startled me so"
-	line "much that I fell"
-	cont "down here."
-
-	para "I think I'll vent"
-	line "my anger by taking"
-	cont "it out on you!"
+	para "ON Y EXTRAIT DE"
+	line "L'URANIUM!!!!!!"
 	done
 
 GruntM29BeatenText:
-	text "Arrgh! This is NOT"
-	line "my day!"
+	text "OK, MAIS A LA"
+	line "MINE,"
 	done
 
 GruntM29AfterBattleText:
-	text "Sure, we've been"
-	line "hacking the tails"
+	text "ON EXRAIT DE"
+	line "L'URANIUM DE"
 
-	para "off SLOWPOKE and"
-	line "selling them."
-
-	para "Everything we do"
-	line "is for profit."
-
-	para "That's right!"
-	line "We're TEAM ROCKET,"
-
-	para "and we'll do any-"
-	line "thing for money!"
-	done
-
-GruntM1SeenText:
-	text "What do you want?"
-
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
-	done
-
-GruntM1BeatenText:
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
-	done
-
-TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three years ago."
-
-	para "But we continued"
-	line "our activities"
-	cont "underground."
-
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
-	done
-
-GruntM2SeenText:
-	text "Quit taking SLOW-"
-	line "POKETAILS?"
-
-	para "If we obeyed you,"
-	line "TEAM ROCKET's rep"
-	cont "would be ruined!"
-	done
-
-GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
-	done
-
-GruntM2AfterBattleText:
-	text "We need the money,"
-	line "but selling SLOW-"
-	cont "POKETAILS?"
-
-	para "It's tough being a"
-	line "ROCKET GRUNT!"
+	para "LA MINE"
+	line "D'URAIUM"
 	done
 
 GruntF1SeenText:
-	text "Stop taking TAILS?"
-
-	para "Yeah, just try to"
-	line "defeat all of us!"
+	text "L'uramium se"
+	line "trouve sous la"
+	cont "forme de minerai"
+	cont "brut."
 	done
 
 GruntF1BeatenText:
-	text "You rotten brat!"
+	text "Le minerai"
+	line "contient l'uranium"
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKETAILS"
-	line "grow back fast!"
+	text "Le minerai con-"
+	line "tient de l'uranium"
+	cont "sous forme oxydée,"
 
-	para "What's wrong with"
-	line "selling them?"
+	para "principalement du"
+	line "dioxyde d'uranium."
+	done
+
+
+GruntM2SeenText:
+	text "L'oxyde"
+	line "d'uranium peut"
+
+	para "étre rouge foncé,"
+	line "vert, jaune ou"
+	cont "incolore."
+	done
+
+GruntM2BeatenText:
+	text "Dans l'ouraline,"
+	line "il est vert… fluo!"
+	done
+
+GruntM2AfterBattleText:
+	text "Quand on éclaire"
+	line "du verre d'uranium"
+
+	para "sous UV, on voit"
+	line "que c'est fluo!"
+
+	para "Mais ce n'est pas"
+	line "la radiactivité!"
+
+	para "bien qu'il soit"
+	line "un peu radioactif…"
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "Un ourson…"
+	line "On dirait qu'il"
 
-	para "Huh? It has MAIL."
-	line "Read it?"
+	para "veut manger votre"
+	line "encat!"
+
+	para "Lui donner?"
 	done
 
 SlowpokeWellB1FSlowpokeMailText:
-	text "<PLAYER> read the"
-	line "MAIL."
+	text "<PLAYER> donne"
+	line "son sandwich."
 
-	para "Be good and look"
-	line "after the house"
-
-	para "with Grandpa and"
-	line "SLOWPOKE."
-
-	para "Love, Dad"
+	para "L'ourson l'a"
+	line "engouti!"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "Un ourson…"
+	line "Veut votre"
+	cont "sandwich."
+	done
+
+GruntM1SeenText:
+	text "Raffiné, on en"
+	line "fait un Yellowcake"
+	cont "tout jaune!"
+	done
+
+GruntM1BeatenText:
+	text "Ce qu'on fait du"
+	line "yellowcake…"
+	done
+
+TrainerGruntM1WhenTalkText:
+	text "L'enrichissement"
+	line "et tout le reste,"
+	cont "c'est pas nous."
+
+	para "La visite est"
+	line "terminée!"
+	done
+
+KurtLeaveSlowpokeWellText:
+	text "La visite vous"
+	line "a plu, <PLAYER>?"
+
+	para "Rentrons."
 	done
 
 SlowpokeWellB1F_MapEvents:

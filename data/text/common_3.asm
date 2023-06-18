@@ -214,13 +214,13 @@ _SaveFileCorruptedText::
 _ChangeBoxSaveText::
 	text "En changeant de"
 	line "dossier, la partie"
-	cont "sera sauvegardée. OK?"
+	cont "sera sauvegardée."
 	done
 
 _MoveMonWOMailSaveText::
-	text "Chaque fois que vous"
-	line "déplacez un fichier,"
-	cont "on sauvegardera. OK?"
+	text "Chaque déplacement"
+	line "requiert d'écraser "
+	cont "la sauvegarde. OK?"
 	done
 
 ; unused
@@ -308,9 +308,9 @@ _SeerTimeLevelText::
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Au niveau @"
+	para "Avec déjä @"
 	text_ram wSeerCaughtLevelString
-	text "!"
+	text " pages!"
 
 	para "Impressionnant,"
 	line "n'est-ce pas?"
@@ -343,12 +343,14 @@ _SeerNoLocationText::
 	line "mais"
 
 	para "Je ne peux dire d'ou"
-	line "il vient. Juste q'il"
-	cont "était niveau @"
+	line "il vient. Il avait"
+	cont "déjä @"
 	text_ram wSeerCaughtLevelString
-	text "."
+	text "pages"
 
-	para "Pas vrai?"
+	para "quand on vous "
+	line "l'a donnée,"
+	cont "Pas vrai?"
 	prompt
 
 _SeerEggText::
@@ -444,7 +446,7 @@ _StoppedEvolvingText::
 	text_ram wStringBuffer2
 	text_start
 	line "est une suffisament!"
-	text "bonne idée comme ça!"
+	text "bonne idée comme ca!"
 	prompt
 
 _EvolvingText::

@@ -413,25 +413,25 @@ JohtoGrassWildMons:
 	db 6, GEODUDE
 	db 6, SANDSHREW
 	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
+	db 4, TEDDIURSA
+	db 7, TEDDIURSA
+	db 6, TEDDIURSA
 	db 6, ONIX
 	; day
 	db 6, GEODUDE
 	db 6, SANDSHREW
 	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
+	db 4, TEDDIURSA
+	db 7, TEDDIURSA
+	db 6, TEDDIURSA
 	db 6, ONIX
 	; nite
 	db 6, GEODUDE
-	db 6, RATTATA
+	db 6, TEDDIURSA
 	db 5, WOOPER
-	db 4, RATTATA
+	db 4, TEDDIURSA
 	db 7, ZUBAT
-	db 6, ONIX
+	db 6, TEDDIURSA
 	db 6, ONIX
 
 	map_id UNION_CAVE_B1F

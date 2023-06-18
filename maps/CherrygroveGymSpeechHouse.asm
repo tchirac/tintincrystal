@@ -32,7 +32,7 @@ CherrygroveGymSpeechHousePokefanMText:
 	line "l'espoir, ils"
 	cont "vous donneront"
 
-	para "des BADGES."
+	para "des PIN'S."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
@@ -41,7 +41,7 @@ CherrygroveGymSpeechHouseBugCatcherText:
 	cont "GYM LEADER!"
 
 	para "Et je garderai"
-	line "tous les BADGES"
+	line "tous les PIN'S"
 
 	para "pour moi tout"
 	line "seul!"

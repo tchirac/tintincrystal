@@ -76,74 +76,70 @@ CharcoalKilnRadio:
 	jumpstd radio2
 
 CharcoalKilnBossText1:
-	text "All the SLOWPOKE"
-	line "have disappeared"
-	cont "from the town."
+	text "Je travaille ä"
+	line "mine d'uranium."
 
-	para "The forest's pro-"
-	line "tector may be"
-	cont "angry with us…"
+	para "Mon frére a"
+	line "restaurant ä"
+	cont "Bruxelles,"
 
-	para "It may be a bad"
-	line "omen. We should"
-	cont "stay in."
+	para "parfois je lui"
+	line "raméne poireaux"
+	cont "syldaves."
 	done
 
 CharcoalKilnBossText2:
-	text "The SLOWPOKE have"
-	line "returned…"
+	text "Les oursons,"
+	line "partout…"
 
-	para "But my APPRENTICE"
-	line "hasn't come back"
-	cont "from ILEX FOREST."
+	para "Mes amis, forét."
 
-	para "Where in the world"
-	line "is that lazy guy?"
+	para "Roi Ottokar"
+	line "cherche sceptre."
+
+	para "Bientot, grosse"
+	line "féte syldave."
 	done
 
 CharcoalKilnBossText3:
-	text "You chased off"
-	line "TEAM ROCKET and"
+	text "Vous ouvert mine,"
+	line "invité oursons,"
 
-	para "went to ILEX"
-	line "FOREST alone?"
-
-	para "That takes guts!"
-	line "I like that. Come"
-	cont "train with us."
+	para "et sauvé sceptre"
+	line "roi Ottkar?"
 	done
 
 CharcoalKilnApprenticeText1:
-	text "Where have all the"
-	line "SLOWPOKE gone?"
+	text "Si le roi n'a pas"
+	line "son sceptre pour"
+	cont "la cérémonie,"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "Il sera destitué…"
 	done
 
 CharcoalKilnApprenticeText2:
-	text "I'm sorry--I for-"
-	line "got to thank you."
+	text "Encore vous? Quoi"
+	line "encore?"
 
-	para "This is CHARCOAL"
-	line "that I made."
+	para "Tiens, du CHARCOAL"
+	line "pour tes #."
 
-	para "Fire-type #MON"
-	line "would be happy to"
-	cont "hold that."
+	para "Ca rend le feu"
+	line "plus vif dans"
+	cont "l'écriture."
 	done
 
 CharcoalKilnApprenticeText3:
-	text "The SLOWPOKE came"
-	line "back, and you even"
-	cont "found FARFETCH'D."
+	text "Il y a des oursons"
+	line "partout, et le roi"
+	cont "a son sceptre."
 
-	para "You're the cool-"
-	line "est, man!"
+	para "Jusqu'ä l'année"
+	line "prochaine!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!"
+	text "Le sceptre!"
 	done
 
 CharcoalKiln_MapEvents:

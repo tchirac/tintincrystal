@@ -535,7 +535,7 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "Cheverny"
 
 	para "La ville qui sent"
 	line "l'eau de cologne."

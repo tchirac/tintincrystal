@@ -299,7 +299,7 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 	db "@" ; unused
 
 .Badges:
-	db "  BADGES▶@"
+	db "  PIN'S▶@"
 
 .StatusTilemap:
 	db $29, $2a, $2b, $2c, $2d, -1
@@ -335,7 +335,7 @@ endr
 	ret
 
 .BadgesTilemap:
-	db $79, $7a, $7b, $7c, $7d, -1 ; "BADGES"
+	db $79, $7a, $7b, $7c, $7d, -1 ; "PIN'S"
 
 TrainerCardSetup_PlaceTilemapString:
 .loop

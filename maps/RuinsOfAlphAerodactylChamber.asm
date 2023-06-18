@@ -128,9 +128,7 @@ RuinsOfAlphAerodactylChamberWallHoleText:
 	done
 
 RuinsOfAlphAerodactylChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Un sarcophage...!"
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:

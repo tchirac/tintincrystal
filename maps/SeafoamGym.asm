@@ -82,7 +82,7 @@ BlaineIntroText:
 
 	para "If you can beat"
 	line "me, I'll give you"
-	cont "a BADGE."
+	cont "a PIN'S."
 
 	para "Ha! You'd better"
 	line "have BURN HEAL!"
@@ -93,12 +93,12 @@ BlaineWinLossText:
 	line "I've burned out…"
 
 	para "You've earned"
-	line "VOLCANOBADGE!"
+	line "PIN'SVOLCANO!"
 	done
 
 ReceivedVolcanoBadgeText:
 	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	line "PIN'SVOLCANO."
 	done
 
 BlaineAfterBattleText:

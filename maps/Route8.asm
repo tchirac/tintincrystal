@@ -145,7 +145,7 @@ SupernerdSamAfterBattleText:
 
 SupernerdTomSeenText:
 	text "Hm… You've got"
-	line "many GYM BADGES."
+	line "many GYM PIN'S."
 	done
 
 SupernerdTomBeatenText:
@@ -154,7 +154,7 @@ SupernerdTomBeatenText:
 	done
 
 SupernerdTomAfterBattleText:
-	text "GYM BADGES give"
+	text "GYM PIN'S give"
 	line "you advantages in"
 	cont "battles."
 	done

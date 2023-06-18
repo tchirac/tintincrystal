@@ -221,20 +221,20 @@ WhitneyWhatDoYouWantText:
 	text "…Sniff…"
 
 	para "What? What do you"
-	line "want? A BADGE?"
+	line "want? un PIN'S?"
 
 	para "Oh, right."
 	line "I forgot. Here's"
-	cont "PLAINBADGE."
+	cont "PIN'SPLAIN."
 	done
 
 PlayerReceivedPlainBadgeText:
 	text "<PLAYER> received"
-	line "PLAINBADGE."
+	line "PIN'SPLAIN."
 	done
 
 WhitneyPlainBadgeText:
-	text "PLAINBADGE lets"
+	text "PIN'SPLAIN lets"
 	line "your #MON use"
 
 	para "STRENGTH outside"

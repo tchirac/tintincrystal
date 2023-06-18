@@ -212,7 +212,7 @@ ClairText_GoToDragonsDen:
 
 	para "you as a trainer"
 	line "worthy of a GYM"
-	cont "BADGE!"
+	cont "PIN's!"
 	done
 
 ClairText_TooMuchToExpect:

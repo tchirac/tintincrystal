@@ -737,104 +737,90 @@ MovementData_0x6ef58:
 	step_end
 
 IlexForestApprenticeIntroText:
-	text "Oh, man… My boss"
-	line "is going to be"
-	cont "steaming…"
+	text "Oh, vous?!"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "Il n'y a rien"
+	line "ä voir, la route"
 
-	para "for charcoal took"
-	line "off on me."
-
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
-
-	para "It's too big, dark"
-	line "and scary for me…"
-	done
-
-IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
-
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "est bloquée, alors"
+	line "circulez."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#MON!"
+	text "Quoi? Le sceptre?"
+	line "Jamais!"
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "Whaaaaaa!"
 	done
 
+IlexForestApprenticeAfterText:
+	text "Vous étes fouineur"
+	line "vous! Mais ok."
+
+	para "On arréte nos"
+	line "bétises et on"
+	cont "va rendre"
+	cont "le sceptre."
+	done
+
+
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! Ces deux lä!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Toi avoir récup-"
+	line "éré sceptre?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Merci pour roi."
 
-	para "to CUT trees for"
-	line "charcoal."
-
-	para "Thanks, kid!"
-
-	para "Now, how can I"
-	line "thank you…"
-
-	para "I know! Here, take"
-	line "this."
+	para "Toi, tiens."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "Ca, HowTo COUPE."
+	line "Pour couper"
+	cont "poireaux."
 
-	para "#MON to clear"
-	line "small trees."
+	para "toi mettre COUPE"
+	line "dans #, et #"
+	cont "couper poireau."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Si roi ok,"
+	para "voie libre."
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "Poireau, bon"
+	line "szaszeck!"
+
+	para "Miam!"
+
+	para "Va voir roi."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Toi va gouter"
+	line "szaszeck"
+	cont "chez frére moi?"
 
-	para "charcoal maker"
-	line "with me?"
-
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "Va voir roi."
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Ce que je fais?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "Je me tape la"
+	line "la téte contre un"
+	cont "arbre!"
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "C'est fun. Tu"
+	line "devrais essayer!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Cogne ta téte"
+	line "avec HEADBUTT."
+	cont "Parfois, des idées"
+	cont "dormantes viennent."
 	done
 
 Text_IlexForestLass:

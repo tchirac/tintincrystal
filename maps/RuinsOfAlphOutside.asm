@@ -222,42 +222,37 @@ PsychicNathanAfterBattleText:
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERY STONE"
-	line "PANEL CHAMBER"
+	text "Puzzle et cigares"
+	line "pour petits"
+	cont "et grands."
 	done
 
 RuinsOfAlphSignText:
-	text "RUINS OF ALPH"
-	line "VISITORS WELCOME"
+	text "Les ruines du"
+	line "Phare ä On"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
-
-	para "THE AUTHORITY ON"
-	line "THE RUINS OF ALPH"
+	text "Commisariat"
+	line "de police"
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "While exploring"
-	line "the RUINS, we"
+	text "Soudain, un"
+	line "bout de plafond"
+	cont "s'est effondré."
 
-	para "suddenly noticed"
-	line "an odd presence."
+	para "Je me suis cara"
+	line "-paté vaillament."
 
-	para "We all got scared"
-	line "and ran away."
-
-	para "You should be"
-	line "careful too."
+	para "Fais attention"
+	line "lä dedans."
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "The RUINS hide a"
-	line "huge secret!"
-
-	para "…I think…"
+	text "J'espére que"
+	line "croustille"
+	cont "viendra…"
 	done
 
 RuinsOfAlphOutsideYoungster1Text:

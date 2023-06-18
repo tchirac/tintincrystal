@@ -330,7 +330,7 @@ BugCatcherDonSeenText:
 	done
 
 BugCatcherDonBeatenText:
-	text "Ah! Vous êtes"
+	text "Ah! Vous étes"
 	line "un malin, vous!"
 	done
 
@@ -368,8 +368,8 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "ROUTE 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "Sbrodj -"
+	line "Cheverny"
 	done
 
 MrPokemonsHouseDirectionsSignText:

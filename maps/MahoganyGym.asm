@@ -189,16 +189,16 @@ PryceText_Impressed:
 	line "life's obstacles."
 
 	para "You are worthy of"
-	line "this BADGE!"
+	line "this PIN'S!"
 	done
 
 Text_ReceivedGlacierBadge:
 	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	line "PIN'S GLACIER."
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE will"
+	text "Ce PIN'S will"
 	line "raise the SPECIAL"
 	cont "stats of #MON."
 

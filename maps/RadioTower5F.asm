@@ -338,7 +338,7 @@ RadioTower5FDirectorThankYouText:
 RadioTower5FDirectorDescribeClearBellText:
 	text "There used to be a"
 	line "tower right here"
-	cont "in GOLDENROD CITY."
+	cont "in Bruxelles."
 
 	para "But it was old and"
 	line "creaky."
@@ -354,7 +354,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "I heard that all"
 	line "sorts of #MON"
 
-	para "lived in GOLDENROD"
+	para "lived ä Bruxelles"
 	line "in the past."
 
 	para "Perhaps…"

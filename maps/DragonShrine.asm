@@ -472,7 +472,7 @@ DragonShrineMustIInformLanceText:
 
 	para "Admit defeat and"
 	line "confer the RISING-"
-	cont "BADGE!"
+	cont "PIN'S!"
 
 	para "…Or must I inform"
 	line "LANCE of this?"
@@ -623,18 +623,18 @@ DragonShrineIUnderstandText:
 
 DragonShrineHereRisingBadgeText:
 	text "Here, this is the"
-	line "RISINGBADGE…"
+	line "PIN'SRISING…"
 
 	para "Hurry up! Take it!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
 	text "<PLAYER> received"
-	line "RISINGBADGE."
+	line "PIN'SRISING."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
+	text "PIN'SRISING will"
 	line "enable your"
 
 	para "#MON to use the"

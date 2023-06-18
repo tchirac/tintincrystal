@@ -280,7 +280,7 @@ Route40StandingYoungsterText:
 	line "there already."
 
 	para "But since you have"
-	line "so many BADGES,"
+	line "so many PIN'S,"
 
 	para "you shouldn't do"
 	line "badly at all."

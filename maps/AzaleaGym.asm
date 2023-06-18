@@ -148,86 +148,81 @@ AzaleaGymStatue:
 	jumpstd gymstatue2
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
-	line "I never lose when"
+	text "Je suis Ottokar"
+	line "IVe du nom."
 
-	para "it comes to bug"
-	line "#MON."
+	para "Je reigne sur la"
+	line "Syldavie."
 
-	para "My research is"
-	line "going to make me"
-
-	para "the authority on"
-	line "bug #MON!"
-
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "Enfin... il me"
+	line "faut mon sceptre"
+	cont "pour régner!"
 	done
 
 BugsyText_ResearchIncomplete:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #MON!"
+	text "Ouah, terrible!"
+	line "De biens mauvais"
+	cont "memes!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Mais bon, je"
+	line "suis heureux"
+	cont "de pouvoir"
 
-	para "OK, you win. Take"
-	line "this BADGE."
+	para "récupérer mon"
+	line "scptre."
+
+	para "Alors je vous"
+	line "décore de la"
+	cont "croix du Pélican"
+	cont "d'Or!"
+
+	para "(Oui, c'est un"
+	line "PIN'S.)"
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> received"
-	line "HIVEBADGE."
+	text "<PLAYER> recoit"
+	line "Pélican d'or."
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "BADGE?"
+	text "Avec la croix"
+	line "du Pélican"
+	cont "d'Or, vous"
 
-	para "If you have it,"
-	line "#MON up to L30"
+	para "aurez la confi-"
+	line "ance d'écrire"
+	cont "jusqu'ä 30 lignes"
 
-	para "will obey you,"
-	line "even traded ones."
+	para "Le HowTo COUPE"
+	line "pourra étre"
+	cont "utilisé sur les"
+	cont "poireaux."
 
-	para "#MON that know"
-	line "CUT will be able"
-
-	para "to use it outside"
-	line "of battle too."
-
-	para "Here, I also want"
-	line "you to have this."
+	para "Et aussi, tenez."
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM49 contains"
+	text "TM49 aborde"
 	line "FURY CUTTER."
 
-	para "If you don't miss,"
-	line "it gets stronger"
-	cont "every turn."
+	para "Un argument"
+	line "plus percutant"
+	cont "chaque tour."
 
-	para "The longer your"
-	line "battle goes, the"
-	cont "better it gets."
-
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "Le comique de"
+	line "répétition, il"
+	cont "y a que ca"
+	cont "de vrai!"
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Bug #MON are"
-	line "deep. There are"
+	text "A part ce "
+	line "probléme"
+	cont "d'oursons,"
 
-	para "many mysteries to"
-	line "be explored."
-
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "tout va bien"
+	line "en Syldavie."
 	done
 
 BugCatcherBennySeenText:
@@ -274,7 +269,7 @@ BugCatcherAlAfterBattleText:
 
 BugCatcherJoshSeenText:
 	text "You saved all the"
-	line "SLOWPOKE? Whew,"
+	line "Oursons? Whew,"
 	cont "you're mighty!"
 
 	para "But my grown-up"

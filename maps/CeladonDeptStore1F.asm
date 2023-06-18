@@ -37,7 +37,7 @@ CeladonDeptStore1FGentlemanText:
 	line "part of the same"
 
 	para "chain as the one"
-	line "in GOLDENROD CITY."
+	line "in Bruxelles."
 
 	para "They were both"
 	line "renovated at the"

@@ -292,7 +292,7 @@ MrPokemonsHouse_OakText2:
 	line "le trou, mais…"
 
 	para "Je suis attendu ä"
-	line "GOLDENROD CITY."
+	line "Bruxelles."
 
 	para "<PLAY_G>, Je"
 	line "compte sur vous!"

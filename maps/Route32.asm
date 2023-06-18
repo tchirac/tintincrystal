@@ -523,8 +523,8 @@ Movement_Route32CooltrainerMReset2:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Wait up!"
-	line "What's the hurry?"
+	text "Stop!"
+	line "Vous partez déjä?"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
@@ -550,53 +550,62 @@ Route32CooltrainerMText_UnusedSproutTower:
 	line "en construisent"
 
 	para "une ä"
-	line "VIOLET CITY!"
+	line "Sbrodj!"
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #MON GYM?"
+	text "Aprés moi, il"
+	line "y a moins de"
+	cont "blagues,"
 
-	para "You can test your"
-	line "#MON and your-"
-	cont "self there."
+	para "faute de temps"
+	line "du développeur."
 
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	para "De toute facon"
+	line "il vous faut"
+	cont "afronter la GYM"
+
+	para "pour aller plus"
+	line "loin!"
 	done
 
 Route32CooltrainerMText_HaveThisSeed:
-	text "You have some good"
-	line "#MON there."
+	text "Ah vous en avez"
+	line "un beau pin's."
 
-	para "It must be from"
-	line "the training you"
+	para "Ca y est, vous"
+	line "avez marre de"
+	cont "Sbrodj?"
 
-	para "gave them around"
-	line "VIOLET CITY."
+	para "Vous y prennez"
+	line "un pin's et"
+	cont "vous partez?"
 
-	para "The training at"
-	line "the GYM must have"
+	para "Prennez aussi"
+	line "ceci, tenez."
 
-	para "been especially"
-	line "helpful."
+	para "Souvenir"
+	line "de Sbrodj."
 
-	para "As a souvenir of"
-	line "VIOLET CITY, take"
-	cont "this."
+	para "Ca augmente la "
+	line "pertinence de"
+	cont "vos notes sur"
+	
+	para "les plantes."
 
-	para "It increases the"
-	line "power of grass-"
-	cont "type moves."
+	para "On parle le "
+	line "mieux de ce "
+	cont "connait,"
+
+	para "Pas vrai?"
 	done
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
-	text "Your experiences"
-	line "in VIOLET CITY"
+	text "Vos aventures"
+	line "ä Sbrodj"
 
-	para "should be useful"
-	line "for your journey."
+	para "doivent vous"
+	line "inspirer."
 	done
 
 Text_MillionDollarSlowpokeTail:
@@ -719,8 +728,8 @@ Route32UnusedFisher2AfterText:
 ; --- end a segment of unused texts
 
 FisherHenrySeenText:
-	text "My #MON?"
-	line "Freshly caught!"
+	text "Ma #?"
+	line "Toute fraiche!"
 	done
 
 FisherHenryBeatenText:
@@ -728,107 +737,105 @@ FisherHenryBeatenText:
 	done
 
 FisherHenryAfterText:
-	text "Freshly caught"
-	line "#MON are no"
+	text "Les #S fraiches"
+	line "ne valent pas"
 
-	para "match for properly"
-	line "raised ones."
+	para "celles travaillées"
+	line "depuis longtemps."
 	done
 
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+	text "Je ne t'avais"
+	line "jamais vu avant."
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "Qu'est ce que tu"
+	line "racontes de beau?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "C'est profond!"
 	done
 
 YoungsterAlbertAfterText:
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
+	text "Je vais essayer"
+	line "de travailler des"
+	cont "idées originales."
 
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
+	para "Je n'aime pas en"
+	line "avoir des trop"
+	cont "banales."
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
-
-	para "I think they'll do"
-	line "it for me!"
+	text "J'ai eu une idée"
+	line "de génie!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Zut. Je pensais"
+	line "que c'était bien."
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "L'herbe est pleine"
+	line "de tranchants."
 	done
 
 CamperRolandSeenText:
-	text "That glance…"
-	line "It's intriguing."
+	text "Ce regard…"
+	line "C'est intriguant."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Hmmm. C'est"
+	line "décevant."
 	done
 
 CamperRolandAfterText:
-	text "If you don't want"
-	line "to battle, just"
-	cont "avoid eye contact."
+	text "Si tu as honte de"
+	line "tes #S, évite le"
+	cont "regard des autres."
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "Oh ouais. Oui, et"
+	line "tu sais…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Pardon? Je suis"
+	line "au telephone."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Oh, bon. Voyons"
+	line "cela, mais vite."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Oh! Il faut que"
+	line "je casse un truc!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "C'était une"
+	line "bonne discussion,"
+	cont "pourtant."
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	text "Ce PIN'S! Il est"
+	line "de Sbrodj!"
 
-	para "You beat FALKNER?"
+	para "FALKNER te l'a"
+	line "donné?"
 	done
 
 BirdKeeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "Je connais"
+	line "mes faiblesses."
 	done
 
 BirdKeeperPeterAfterText:
 	text "I should train"
 	line "again at the GYM"
-	cont "in VIOLET CITY."
+	cont "in Sbrodj."
 	done
 
 Route32UnusedText:
@@ -908,18 +915,18 @@ FriedaNotFridayText:
 Route32SignText:
 	text "ROUTE 32"
 
-	para "VIOLET CITY -"
-	line "AZALEA TOWN"
+	para "Sbrodj -"
+	line "Klow "
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	text "Ruines"
+	line "Entrée Est"
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
-	line "AHEAD"
+	text "Zmyhlpathes"
+	line "droit devant"
 	done
 
 Route32_MapEvents:

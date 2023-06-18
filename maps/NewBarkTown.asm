@@ -266,7 +266,7 @@ NewBarkTownSignText:
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>"
+	text "M. Nestor"
 	done
 
 NewBarkTownElmsLabSignText:
@@ -274,8 +274,8 @@ NewBarkTownElmsLabSignText:
 	line "avoir été ajouté"
 	cont "ä l'arrache:"
 
-	para "Laboratoire du"
-	line "Pr.Bergamotte"
+	para "'Laboratoire du"
+	line "Pr.Bergamotte'"
 	done
 
 NewBarkTownElmsHouseSignText:

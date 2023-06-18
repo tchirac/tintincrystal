@@ -518,7 +518,7 @@ YoungsterSamuelBeatenText:
 
 YoungsterSamuelMobileText:
 	text "Have you been to"
-	line "GOLDENROD CITY?"
+	line "Bruxelles?"
 
 	para "Weren't you amazed"
 	line "by how they've"
@@ -553,16 +553,17 @@ YoungsterIanAfterText:
 	done
 
 CamperTodd1SeenText:
-	text "I'm confident in"
-	line "my ability to"
-	cont "raise #MON."
-
-	para "Want to see?"
+	text "Quand on arrive"
+	line "en ville, tout"
+	cont "l'monde change"
+	
+	para "de trottoir!"
 	done
 
 CamperTodd1BeatenText:
-	text "Did I screw up my"
-	line "training?"
+	text "On n'a pas l'air"
+	line "viril, mais on"
+	cont "fait peur ä voir"
 	done
 
 CamperTodd1AfterText:
@@ -734,8 +735,8 @@ Route34IlexForestSignText:
 Route34SignText:
 	text "ROUTE 34"
 
-	para "GOLDENROD CITY -"
-	line "AZALEA TOWN"
+	para "Bruxelles -"
+	line "Klow"
 
 	para "ILEX FOREST"
 	line "SOMEWHERE BETWEEN"

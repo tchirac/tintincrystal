@@ -344,68 +344,63 @@ Route29CooltrainerMText_WaitingForMorning:
 	done
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "Marie du mardi:"
+	line "Hey salut beau"
 
-	para "the first time"
-	line "we've met?"
+	para "blond, vous vivez"
+	line "chez vot'captain?"
 
-	para "Please allow me to"
-	line "introduce myself."
-
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "Moi c'est mard-"
+	line "Marie du mardi."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Tu as rendu mon"
+	line "mardi plus joli."
 
-	para "accept this gift,"
-	line "a PINK BOW."
+	para "Prends ce ruban"
+	line "rose."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "En chocker, ca"
+	line "t'irait trés bien!"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Mais tu peux aussi"
+	line "le mettre sur tes"
 
-	para "I am certain it"
-	line "will be of use."
+	para "# les plus"
+	line "normales."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "Connais-tu"
+	line "Lulu du lundi?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "Trés célebre sur"
+	line "minitel."
 
-	para "I am the second of"
-	line "seven children."
+	para "On est de la méme"
+	line "famille!"
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "Nous ne sommes"
+	line "pas mardi,"
+	cont "malheureusement…"
 	done
 
 Route29Sign1Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
+	para "Cheverny -"
 	line "MOULINSART"
 	done
 
 Route29Sign2Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
+	para "Cheverny -"
 	line "MOULINSART"
 	done
 

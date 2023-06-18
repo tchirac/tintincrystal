@@ -257,8 +257,8 @@ UnknownText_0x61375:
 	done
 
 UnknownText_0x613a9:
-	text "Sorry. We can't"
-	line "accept an EGG."
+	text "Caramels mous"
+	line "interdits!"
 	done
 
 UnknownText_0x613c8:
@@ -681,7 +681,7 @@ UnknownText_0x62173:
 	text "I came over here"
 	line "when I got word"
 
-	para "that GOLDENROD's"
+	para "that Bruxelles's"
 	line "#MON CENTER has"
 
 	para "new machines that"

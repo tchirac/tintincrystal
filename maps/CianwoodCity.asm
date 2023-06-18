@@ -197,7 +197,7 @@ ChucksWifeEasierToFlyText:
 ChucksWifeBeatChuckText:
 	text "But you can't use"
 	line "FLY without this"
-	cont "city's GYM BADGE."
+	cont "city's GYM PIN'S."
 
 	para "If you beat the"
 	line "GYM LEADER here,"
@@ -209,7 +209,7 @@ ChucksWifeBeatChuckText:
 
 ChucksWifeGiveHMText:
 	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	line "GYM PIN'S!"
 
 	para "Then you should"
 	line "take this HM."

@@ -130,17 +130,17 @@ LtSurgeWinLossText:
 	line "You are strong!"
 
 	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	line "PIN'STHUNDER!"
 	done
 
 ReceivedThunderBadgeText:
 	text "<PLAYER> received"
-	line "THUNDERBADGE."
+	line "PIN'STHUNDER."
 	done
 
 LtSurgeThunderBadgeText:
 	text "SURGE: THUNDER-"
-	line "BADGE increases"
+	line "PIN'S increases"
 	cont "#MON's speed. "
 
 	para "Consider it proof"

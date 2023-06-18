@@ -104,12 +104,12 @@ LeaderBlueWinText:
 
 	para "Tch, all right…"
 	line "Here, take this--"
-	cont "it's EARTHBADGE."
+	cont "it's PIN'sEARTH."
 	done
 
 Text_ReceivedEarthBadge:
 	text "<PLAYER> received"
-	line "EARTHBADGE."
+	line "PIN'sEARTH."
 	done
 
 LeaderBlueAfterText:

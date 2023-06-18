@@ -223,17 +223,17 @@ MortyWinLossText:
 	line "enough yet…"
 
 	para "All right. This"
-	line "BADGE is yours."
+	line "PIN's is yours."
 	done
 
 Text_ReceivedFogBadge:
 	text "<PLAYER> received"
-	line "FOGBADGE."
+	line "PIN'sFOG."
 	done
 
 MortyText_FogBadgeSpeech:
 	text "By having FOG-"
-	line "BADGE, #MON up"
+	line "PIN's, #MON up"
 
 	para "to L50 will obey"
 	line "you."

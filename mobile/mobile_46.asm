@@ -5449,8 +5449,8 @@ Text_CanceledSendingSaveFile:
 	done
 
 Text_ReceivedOddEgg:
-	text "ODD EGG"
-	line "was received!"
+	text "Recu: un bon"
+	line "caramel mou!"
 	done
 
 Text_RegisteringRecord:

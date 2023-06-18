@@ -449,149 +449,123 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Who are you?"
+	text "Hm? Qui étes-vous?"
 
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some BALLS?"
+	para "<PLAYER>? Vous"
+	line "vous visitez la"
+	cont "syldavie?"
 
-	para "Sorry, but that'll"
-	line "have to wait."
+	para "Avant l'uranium,"
+	line "Klow était connue"
+	cont "pour sa papéterie."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "On fait du papier"
+	line "ä # ä partir"
+	cont "des arbres."
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "Je pourrai vous"
+	line "faire une démo."
 
-	para "TEAM ROCKET's an"
-	line "evil gang that"
+	para "Mais vous devez"
+	line "étre impatient de"
 
-	para "uses #MON for"
-	line "their dirty work."
+	para "visiter la mine"
+	line "d'uranium, non?"
 
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
+	para "Je vais vous"
+	line "ouvrir, retrouvez"
+	cont "-moi lä bas."
 
-	para "Anyway, they're at"
-	line "the WELL, cutting"
-
-	para "off SLOWPOKETAILS"
-	line "for sale!"
-
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
-
-	para "Hang on, SLOWPOKE!"
-	line "Old KURT is on his"
-	cont "way!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
-	text "KURT: Hi, <PLAYER>!"
+	text "<PLAYER>!"
 
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the WELL."
+	para "Comment avez-vous"
+	line "trouvé la visite"
+	cont "de la mine?"
 
-	para "I like your style!"
-
-	para "I would be honored"
-	line "to make BALLS for"
-
-	para "a trainer like"
-	line "you."
-
-	para "This is all I have"
-	line "now, but take it."
+	para "Voici un petit"
+	line "souvenir de Klow."
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "Je peux vous faire"
+	line "du papier"
+	cont "d'APRICORNS."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
-
-	para "I'll make BALLS"
-	line "out of them."
+	para "Récoltez-les et"
+	line "je vous en ferai."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "Vous avez des"
+	line "APRICORN?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "Bien! Je vais en"
+	line "faire du papier"
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: It'll take a"
-	line "day to make you a"
+	text "Le processus "
+	line "prend 1 jour."
 
-	para "BALL. Come back"
-	line "for it later."
+	para "Revenez plus"
+	line "tard."
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "KURT: Oh…"
-	line "That's a letdown."
+	text "Oh…"
+	line "Domage."
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "Je travaille le"
+	line "papier, voyez!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	text "Ah, <PLAYER>!"
+	line "Votre papier est"
+	cont "fini, voici!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: That turned"
-	line "out great."
+	text "plutot joli,"
+	line "non?"
 
-	para "Try catching"
-	line "#MON with it."
+	para "Essayez une #"
+	line "lä dessus."
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "KURT: Now that my"
-	line "granddaughter is"
-
-	para "helping me, I can"
-	line "work much faster."
+	text "C'est ma petite"
+	line "fille. C'est une"
+	cont "entreprise familiale"
 	done
 
 KurtsHouseKurtWhatIsThatText:
-	text "Wh-what is that?"
+	text "Q-Quoi la baise?"
 
-	para "I've never seen"
-	line "one before."
+	para "Je n'ai jamais"
+	line "vu ca."
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para "Ca ressemble a"
+	line "du papier,"
 
-	para "but it appears to"
-	line "be something else."
+	para "mais il y a un"
+	line "truc."
 
-	para "Let me check it"
-	line "for you."
+	para "Laissez-moi voir."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
-	text "I'm checking it"
-	line "now."
+	text "Hmmm intéressant…"
 	done
 
 KurtsHouseKurtAhHaISeeText:
-	text "Ah-ha! I see!"
-	line "So…"
+	text "Ah! Je vois!"
+	line "donc…"
 	done
 
 KurtsHouseKurtThisBallStartedToShakeText:
@@ -606,72 +580,72 @@ KurtsHouseKurtThisBallStartedToShakeText:
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
-	line "gone… Were they"
+	text "J'ai vu des"
+	line "oursons dans"
+	cont "les montagnes."
 
-	para "taken away by bad"
-	line "people?"
+	para "Ils sont trop,"
+	line "mignons!"
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Grandpa's gone…"
-	line "I'm so lonely…"
+	text "Papy est parti…"
+	line "Je me sens seule…"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The SLOWPOKE my"
-	line "dad gave me came"
+	text "Les oursons "
+	line "sont partout!!"
 
-	para "back! Its TAIL is"
-	line "growing back too!"
+	para "Trop mignons!!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at SILPH"
-	line "where he studies"
-	cont "# BALLS."
+	text "Mon papa travaille"
+	line "en Suisse pour les"
+	cont "impots."
 
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	para "Moi je dois rester"
+	line "avec mon papy"
+	cont "and mon ourson."
 	done
 
 KurtsGranddaughterHelpText:
-	text "I get to help"
-	line "Grandpa now!"
+	text "Je dois aider"
+	line "mon papy!"
 
-	para "We'll make good"
-	line "BALLS for you, so"
-	cont "please wait!"
+	para "On va faire du"
+	line "beau papier"
+	cont "attends voir!"
 	done
 
 KurtsGranddaughterFunText:
-	text "It's fun to make"
-	line "BALLS!"
+	text "C'est fun la"
+	line "papeterie!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text "Grandpa's checking"
-	line "a BALL right now."
+	text "Papy examine vos"
+	line "trucs."
 
-	para "So I'm waiting"
-	line "till he's done."
+	para "J'attends qu'il"
+	line "aies fini."
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
-	line "Yawn?"
+	text "Ourson syldave:"
+	line "Sandwich?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
-	line "OAK?"
+	text "Les parents de"
+	line "la petite."
 	done
 
 KurtsHouseCelebiStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Un oscar de la"
+	line "meilleure"
+	cont "papeterie."
 	done
 
 KurtsHouse_MapEvents:

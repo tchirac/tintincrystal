@@ -53,7 +53,7 @@ VioletPokecenter1F_ElmsAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "Caramail@"
 
 .AideGivesEgg:
 	jumpstd receivetogepiegg
@@ -104,115 +104,123 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 VioletPokecenterElmsAideFavorText:
-	text "<PLAY_G>, long"
-	line "time, no see."
+	text "<PLAY_G>, cela"
+	line "fait longtemps!"
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "Prof Bergamotte"
+	line "m'a confié un"
+	cont "caramel mou."
 
-	para "He has another"
-	line "favor to ask."
+	para "Il parait que"
+	line "ca donne des"
+	cont "idées de notes."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Ce caramel vous"
+	line "intéresse-t-il?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "We discovered that"
-	line "a #MON will not"
+	text "On pense qu'il"
+	line "faut garder le"
+	cont "caramel mou sur"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "soi suffisament"
+	line "longtemps pour"
+	cont "que l'idée émerge."
+	
+	para "Si le caramel"
+	line "mou est au PC,"
+	cont "il ne sert ä rien."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "<PLAY_G>, kiffe-"
+	line "le bien."
 
-	para "<PLAY_G>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "Ca peut mettre du"
+	line "temps ä monter."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "Appelle le prof"
+	line "Bergamotte quand"
+	cont "ca vient!"
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, non. Vous avez"
+	line "déjä 6 notes"
+	cont "sur vous."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Revenez quand"
+	line "vous aurez de la"
+	cont "place pour le"
+
+	para "caramel mou."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
-	line "asked for you…"
+	text "Mais… c'est"
+	line "tendre, c'est"
+	cont "vrai…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	text "<PLAY_G>, prenez"
+	line "vous le caramel"
+	cont "mou?"
 	done
 
 ; unused
 VioletPokecenterFarawayLinkText:
-	text "I've been thinking"
-	line "it'd be great to"
+	text "Ca serait cool de"
+	line "pouvoir utiliser"
 
-	para "be able to link up"
-	line "and battle with my"
+	para "un moyen de parler"
+	line "avec d'autres gens"
 
-	para "friends who live"
-	line "far away."
+	para "qui vivent trés"
+	line "loin."
 	done
 
 ; unused
 VioletPokecenterMobileAdapterText:
-	text "I just battled a"
-	line "friend in CIANWOOD"
-	cont "over a link."
+	text "Il parait qu'on"
+	line "peut se battre"
+	cont "avec un cable LINK."
 
-	para "If you connect a"
-	line "MOBILE ADAPTER,"
-
-	para "you can link with"
-	line "a friend far away."
+	para "Ou alors je me"
+	line "trompe de jeu."
 	done
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Un type a quand"
+	line "méme réussi ä"
+	cont "programmer le"
+
+	para "PC pour qu'il"
+	line "puisse uploader"
+	cont "des objets."
+
+	para "C'est fou!!"
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "J'étais dans le"
+	line "coin, 3 ans"
+	cont "auparavent."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
-
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "C'était mieux"
+	line "avant."
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "Si vous écrivez"
+	line "trop vite sans"
+	cont "faire juger vos"
 
-	para "trainer they don't"
-	line "respect."
+	para "écrits dans les"
+	line "GYMS, vous perdrez"
 
-	para "Without the right"
-	line "GYM BADGES, they"
-
-	para "will just do as"
-	line "they please."
+	para "confiance et vos"
+	line "notes deviendront"
+	cont "absurdes."
 	done
 
 VioletPokecenter1F_MapEvents:

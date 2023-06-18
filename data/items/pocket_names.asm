@@ -5,7 +5,7 @@ ItemPocketNames:
 	dw .Ball
 	dw .TM
 
-.Item: db "poche objet@"
+.Item: db "poche objets@"
 .Key:  db "poche rares@"
-.Ball: db "poche balls@"
+.Ball: db "poche papiers@"
 .TM:   db "poche TM@"

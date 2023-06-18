@@ -390,14 +390,15 @@ SailorKennethBeatenText:
 	done
 
 SailorKennethAfterBattleText:
-	text "Eight BADGES!"
-	line "They must prove"
+	text "Houit PIN'S!"
+	line "Cela doit prouver"
 
-	para "that you've beaten"
-	line "GYM LEADERS."
+	para "que vous avez eu"
+	line "des relectures"
 
-	para "No wonder you're"
-	line "so good!"
+	para "en GYM. Peu étonant"
+	line "que vous soyez si"
+	cont "fort!"
 	done
 
 TeacherShirleySeenText:

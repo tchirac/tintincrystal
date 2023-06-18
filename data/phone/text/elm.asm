@@ -46,7 +46,7 @@ ElmPhoneAssistantText:
 
 	para "Il doit trainer"
 	line "aux PTT de "
-	cont "VIOLET CITY."
+	cont "Sbrodj."
 	done
 
 ElmPhoneHowIsTheEggText:
@@ -163,7 +163,7 @@ ElmPhoneEggAssistantText:
 	line "entendre. Il doit"
 	cont "étre aux PTT de"
 
-	para "VIOLET CITY. "
+	para "Sbrodj. "
 	line "J'ai peur qu'il"
 	cont "ne fasse une"
 
@@ -209,7 +209,7 @@ ElmPhoneGiftText:
 	line "venir dans mon"
 	cont "bureau?"
 
-	para "Euh, oui, à"
+	para "Euh, oui, ä"
 	line "MONLINSART."
 	done
 

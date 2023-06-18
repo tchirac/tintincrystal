@@ -120,14 +120,14 @@ SabrinaIntroText:
 	line "had a vision of"
 	cont "your arrival."
 
-	para "You're after my"
-	line "BADGE."
+	para "Tu veux mon"
+	line "PIN'S."
 
 	para "I don't enjoy bat-"
 	line "tling, but it's my"
 
 	para "duty as a LEADER"
-	line "to confer BADGES"
+	line "to confer PIN'S"
 
 	para "on anyone who has"
 	line "proven him- or"
@@ -153,17 +153,17 @@ SabrinaWinLossText:
 
 	para "OK, you win. You"
 	line "earned yourself"
-	cont "MARSHBADGE."
+	cont "PIN'S MARSH."
 	done
 
 ReceivedMarshBadgeText:
-	text "<PLAYER> received"
-	line "MARSHBADGE."
+	text "<PLAYER> recoit"
+	line "PIN'S MARSH."
 	done
 
 SabrinaMarshBadgeText:
 	text "SABRINA: MARSH-"
-	line "BADGE draws out"
+	line "PIN'S draws out"
 
 	para "your subliminal"
 	line "powers…"

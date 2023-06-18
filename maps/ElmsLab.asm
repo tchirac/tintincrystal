@@ -5,6 +5,7 @@
 	const ELMSLAB_POKE_BALL2
 	const ELMSLAB_POKE_BALL3
 	const ELMSLAB_OFFICER
+	const ELMSLAB_OFFICER2
 
 ElmsLab_MapScripts:
 	db 6 ; scene scripts
@@ -218,8 +219,8 @@ ChikoritaPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic BULBASAUR
-	cry BULBASAUR
+	pokepic DITTO
+	cry DITTO
 	waitbutton
 	closepokepic
 	opentext
@@ -231,12 +232,12 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, BULBASAUR
+	getmonname STRING_BUFFER_3, DITTO
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke BULBASAUR, 5, BERRY
+	givepoke DITTO, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript
@@ -562,6 +563,23 @@ CopScript:
 	disappear ELMSLAB_OFFICER
 	setscene SCENE_ELMSLAB_NOTHING
 	end
+Cop2Script:
+	turnobject ELMSLAB_OFFICER2, LEFT
+	opentext
+	writetext ElmsLabOfficer2Text2
+	waitbutton
+	closetext
+	applymovement ELMSLAB_OFFICER2, Officer2LeavesMovement
+	disappear ELMSLAB_OFFICER2
+	setscene SCENE_ELMSLAB_NOTHING
+	end
+RascarScript:
+	opentext
+	writetext ElmsLabRascarText
+	waitbutton
+	closetext
+	end
+
 
 ElmsLabWindow:
 	opentext
@@ -601,6 +619,9 @@ ElmsLabTrashcan:
 ElmsLabPC:
 	jumptext ElmsLabPCText
 
+ElmsLabBouleCristal:
+	jumptext ElmsLabBouleCristalText
+
 ElmsLabTrashcan2:
 ; unused
 	jumpstd trashcan
@@ -634,6 +655,14 @@ MeetCopScript_WalkUp:
 	step_end
 
 OfficerLeavesMovement:
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step_end
+Officer2LeavesMovement:
+	step DOWN
 	step DOWN
 	step DOWN
 	step DOWN
@@ -890,7 +919,7 @@ TakeChikoritaText:
 	done
 
 DidntChooseStarterText:
-	text "Prennez"
+	text "Prenez"
 	line "le temps."
 
 	para "Mais pas trop"
@@ -966,7 +995,13 @@ ElmDescribesMrPokemonText:
 
 ElmPokeBallText:
 	text "Une # du"
-	line "prof Bergamotte"
+	line "prof Bergamotte:"
+
+	para "La momie de"
+	line "RASCAR CAPAC…"
+
+	para "…Il n'y a que"
+	line "le titre…"
 	done
 
 ElmsLabHealingMachineText1:
@@ -1048,7 +1083,7 @@ ElmAfterTheftText5:
 	line "GYMs des villes."
 
 	para "La plus proche"
-	line "est VIOLET CITY."
+	line "est Sbrodj."
 	done
 
 ElmAfterTheftText6:
@@ -1078,7 +1113,7 @@ ElmAideHasEggText:
 	cont "vu le capitaine?"
 
 	para "Aux PTT de"
-	line "VIOLET CITY."
+	line "Sbrodj."
 
 	para "Vous avez du le"
 	line "rater. Allez"
@@ -1181,7 +1216,7 @@ ElmGiveMasterBallText1:
 	para "série avance"
 	line "bien!"
 
-	para "Prennez ceci en"
+	para "Prenez ceci en"
 	line "gage de ma"
 	cont "considération."
 	done
@@ -1302,7 +1337,7 @@ AideText_ExplainBalls:
 
 	para "l'idée sur papier"
 	line "en lancant une"
-	cont "NOTEBALL."
+	cont "#BALL."
 
 	para "Si l'idée prend,"
 	line "vous pourrez"
@@ -1332,19 +1367,35 @@ ElmsLabOfficerText1:
 	para "Vous avez"
 	line "confronté vos"
 	cont "idée avec lui?"
-
-	para "Savez-vous"
-	line "comment"
-	cont "l'appeler?"
 	done
 
 ElmsLabOfficerText2:
 	text "Mais .Mais"
-	line "c'est <RIVAL>!"
+	line "c'est…"
 
 	para "Eh!oui,<RIVAL>…"
 	line " "
 	done
+
+ElmsLabOfficer2Text2:
+	text "Je dirais méme"
+	line "plus:"
+	cont "Eh!oui,<RIVAL>…"
+	done
+
+
+ElmsLabRascarText:
+	text "C'est la momie"
+	line "de RASCAR CAPAC."
+
+	para "Elle est si bien"
+	line "conservée qu'on"
+	cont "pourrait"
+
+	para "l'imaginer encore"
+	line "bouger!"
+	done
+
 
 ElmsLabWindowText1:
 	text "La fenétre est"
@@ -1411,10 +1462,13 @@ ElmsLabTrashcanText:
 
 ElmsLabPCText:
 	text "LA MOMIE DE"
-	line "RASCAR CAPAC"
+	line "RASCAR CAPAC…"
+	cont "a disparu!"
+	done
 
-	para "…Il n'y a que"
-	line "le titre…"
+ElmsLabBouleCristalText:
+	text "Une boule de"
+	line "cristal."
 	done
 
 ElmsLab_MapEvents:
@@ -1434,7 +1488,7 @@ ElmsLab_MapEvents:
 	coord_event  4,  8, SCENE_ELMSLAB_AIDE_GIVES_POKE_BALLS, AideScript_WalkBalls1
 	coord_event  5,  8, SCENE_ELMSLAB_AIDE_GIVES_POKE_BALLS, AideScript_WalkBalls2
 
-	db 16 ; bg events
+	db 17 ; bg events
 	bg_event  2,  1, BGEVENT_READ, ElmsLabHealingMachine
 	bg_event  6,  1, BGEVENT_READ, ElmsLabBookshelf
 	bg_event  7,  1, BGEVENT_READ, ElmsLabBookshelf
@@ -1450,12 +1504,15 @@ ElmsLab_MapEvents:
 	bg_event  9,  7, BGEVENT_READ, ElmsLabBookshelf
 	bg_event  9,  3, BGEVENT_READ, ElmsLabTrashcan
 	bg_event  5,  0, BGEVENT_READ, ElmsLabWindow
-	bg_event  3,  5, BGEVENT_DOWN, ElmsLabPC
+	bg_event  3,  5, BGEVENT_READ, ElmsLabPC
+	bg_event  2,  5, BGEVENT_READ, ElmsLabBouleCristal
 
-	db 6 ; object events
+	db 8 ; object events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
 	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
 	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
 	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
-	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
+	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
+	object_event  5,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, Cop2Script, EVENT_COP_IN_ELMS_LAB
+	object_event  3,  5, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RascarScript, EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON

@@ -108,12 +108,12 @@ BrockWinLossText:
 	line "than I expected…"
 
 	para "Go ahead--take"
-	line "this BADGE."
+	line "this PIN'S."
 	done
 
 ReceivedBoulderBadgeText:
-	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	text "<PLAYER> recoit"
+	line "PIN'S BOULDER."
 	done
 
 BrockBoulderBadgeText:
@@ -124,7 +124,7 @@ BrockBoulderBadgeText:
 	line "though I am a bit"
 	cont "upset."
 
-	para "That BOULDERBADGE"
+	para "Ce PIN'S BOULDER"
 	line "will make your"
 
 	para "#MON even more"

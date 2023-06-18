@@ -59,7 +59,7 @@ VermilionSnorlax:
 	setevent EVENT_FOUGHT_SNORLAX
 	reloadmapafterbattle
 	end
-
+s
 VermilionGymBadgeGuy:
 	faceplayer
 	opentext
@@ -192,7 +192,7 @@ VermilionCityBadgeGuyTrainerText:
 VermilionCityBadgeGuySomeBadgesText:
 	text "You've started to"
 	line "collect KANTO GYM"
-	cont "BADGES?"
+	cont "PIN'S?"
 
 	para "Don't you agree"
 	line "that the trainers"
@@ -207,15 +207,15 @@ VermilionCityBadgeGuyMostBadgesText:
 	line "GYMS soon."
 
 	para "Let me know if"
-	line "you get all eight"
-	cont "BADGES."
+	line "tous les houit"
+	cont "PIN'S."
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
 	text "Congratulations!"
 
 	para "You got all the"
-	line "KANTO GYM BADGES."
+	line "KANTO GYM PIN'S."
 
 	para "I've got a reward"
 	line "for your efforts."
@@ -229,7 +229,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 	line "edge in battle."
 
 	para "I'm sure the KANTO"
-	line "GYM BADGES will"
+	line "GYM PIN'S will"
 	cont "help you."
 	done
 

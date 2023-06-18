@@ -206,7 +206,7 @@ MovementData_0x75238:
 	step_end
 
 FastShip1FSailor1Text_ToVermilion:
-	text "FAST SHIP S.S.AQUA"
+	text "Le Karaboudjan"
 	line "is en route to"
 	cont "VERMILION CITY."
 
@@ -216,7 +216,7 @@ FastShip1FSailor1Text_ToVermilion:
 	done
 
 FastShip1FSailor1Text_ToOlivine:
-	text "FAST SHIP S.S.AQUA"
+	text "Le Karaboudjan"
 	line "is en route to"
 	cont "OLIVINE CITY."
 
@@ -272,13 +272,13 @@ FastShip1FGrandpaText:
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "FAST SHIP S.S.AQUA"
+	text "Le Karaboudjan"
 	line "has arrived in"
 	cont "OLIVINE CITY."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "FAST SHIP S.S.AQUA"
+	text "Le Karaboudjan"
 	line "has arrived in"
 	cont "VERMILION CITY."
 	done

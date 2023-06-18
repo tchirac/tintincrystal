@@ -246,7 +246,7 @@ MistyIntroText:
 	para "You may have a"
 	line "lot of JOHTO GYM"
 
-	para "BADGES, but you'd"
+	para "PIN's, but you'd"
 	line "better not take me"
 	cont "too lightly."
 
@@ -262,12 +262,12 @@ MistyWinLossText:
 	line "you are skilled…"
 
 	para "Here you go. It's"
-	line "CASCADEBADGE."
+	line "PIN'sCASCADE."
 	done
 
 ReceivedCascadeBadgeText:
 	text "<PLAYER> received"
-	line "CASCADEBADGE."
+	line "PIN'sCASCADE."
 	done
 
 MistyFightDoneText:

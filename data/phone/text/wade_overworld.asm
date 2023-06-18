@@ -1,70 +1,70 @@
 WadeAskNumber1Text:
-	text "You're awesome!"
-	line "I like you!"
+	text "Vous étes beau!"
+	line "Je vous aime!"
 
-	para "I look for #MON"
-	line "here every day."
+	para "J'écris"
+	line "ici tous les jours"
 
-	para "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	para "Je trouve souvent"
+	line "toutes sortes de"
+	cont "BERRIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Si cela vous dit"
+	line "Je peux partager."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Quel est votre"
+	line "numéro de GSM?"
 	done
 
 WadeAskNumber2Text:
-	text "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	text "Je trouve souvent"
+	line "toutes sortes de"
+	cont "BERRIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Si cela vous dit"
+	line "Je peux partager."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Quel est votre"
+	line "numéro de GSM?"
 	done
 
 WadeNumberAcceptedText:
-	text "You'll hear from"
-	line "me as soon as I"
+	text "Je vous appel-"
+	line "lerai dés que"
 
-	para "find anything that"
-	line "you might like."
+	para "je trouve un "
+	line "un truc cool."
 	done
 
 WadeNumberDeclinedText:
-	text "Oh well. Don't be"
-	line "shy if you want to"
-	cont "get my number."
+	text "Oh. Bon. Ne"
+	line "sois pas timide"
+	cont "et reviens."
 	done
 
 WadePhoneFullText:
-	text "Your phone list"
-	line "has no room for my"
-	cont "number."
+	text "Plus de place"
+	line "dans le calpin"
+	cont "pour ce num."
 	done
 
 WadeRematchText:
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "Je vous attendais"
+	line "C'est parti!"
 	done
 
 WadeGiftText:
-	text "Good to see you!"
-	line "See? This is what"
+	text "Heureux de vous"
+	line "voir! Voici ce"
 
-	para "I found."
-	line "It's for you!"
+	para "que j'ai trouvé."
+	line "C'est pour vous!"
 	done
 
 WadePackFullText:
-	text "Oops, your PACK's"
-	line "full. Too bad."
+	text "Oops, votre sac"
+	line "est plein. Zut."
 
-	para "You should come"
-	line "back for it later."
+	para "Revenez plus tard"
+	line "avec de la place."
 	done

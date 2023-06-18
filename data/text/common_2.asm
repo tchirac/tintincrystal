@@ -101,6 +101,7 @@ Text_Gained::
 
 _BoostedExpPointsText::
 	text_start
+	para "s'agrémente dé"
 	line "-musérement de"
 	cont "@"
 	text_decimal wStringBuffer2, 2, 4
@@ -163,15 +164,16 @@ _ComeBackText::
 	done
 
 _BootedTMText::
-	text "Booted up a CT."
+	text "Manuel ouvert."
 	prompt
 
 _BootedHMText::
-	text "Booted up an HM."
+	text "Mode d'emploi"
+	line "déplié."
 	prompt
 
 _ContainedMoveText::
-	text "Elle contient"
+	text "Il contient"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
@@ -179,7 +181,7 @@ _ContainedMoveText::
 	para "inclure @"
 	text_ram wStringBuffer2
 	text_start
-	line "to a #MON?"
+	line "ä une #?"
 	done
 
 _TMHMNotCompatibleText::
@@ -201,7 +203,7 @@ _NoRoomTMHMText::
 	line "pour plus de"
 	cont "@"
 	text_ram wStringBuffer1
-	text "S."
+	text "s."
 	prompt
 
 _ReceivedTMHMText::
@@ -291,8 +293,8 @@ _MysteryGiftLinkCommErrorText::
 	prompt
 
 _BadgeRequiredText::
-	text "Sorry! A new BADGE"
-	line "is required."
+	text "Déso! Un PIN'S"
+	line "est requis."
 	prompt
 
 _CantUseItemText::
@@ -529,7 +531,7 @@ _AskCutText::
 
 _CanCutText::
 	text "Ce poireau"
-	line "semble solide!"
+	line "donne envie!"
 	done
 
 _FoundItemText::
@@ -730,7 +732,7 @@ _BattleTookSunlightText::
 
 _BattleLoweredHeadText::
 	text_start
-	line "baisse sa tête!"
+	line "baisse sa téte!"
 	prompt
 
 _BattleGlowingText::
@@ -754,8 +756,8 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "aborde"
-	cont "@"
+	line "traite"
+	cont "de @"
 	text_end
 
 _UsedMove2Text::
@@ -1224,7 +1226,7 @@ _OakPCText3::
 _OakRating01::
 	text "Bon sang! Sortez-"
 	line "-vous les doigts,"
-	line "mon vieux!"
+	cont "mon vieux!"
 	done
 
 _OakRating02::
@@ -1430,7 +1432,7 @@ _ItemsDiscardedText::
 
 _ItemsTooImportantText::
 	text "C'est trop impor"
-	line "tant pour être"
+	line "tant pour étre"
 	cont "jeté!"
 	prompt
 

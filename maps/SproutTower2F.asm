@@ -51,7 +51,7 @@ SageNicoAfterBattleText:
 	text "Il parait que tout"
 	line "est normal."
 
-	para "Mais, ça tremble"
+	para "Mais, ca tremble"
 	line "beaucoup, non ?"
 	done
 
@@ -65,7 +65,7 @@ SageEdmondBeatenText:
 	done
 
 SageEdmondAfterBattleText:
-	text "Sapristi, ça"
+	text "Sapristi, ca"
 	line "tremble de partout"
 
 	para "J'suis pas "

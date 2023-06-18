@@ -178,11 +178,10 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Hello!"
-	line "You are trainer?"
+	text "Bonjour!"
+	line "Etes-vous prof"
+	cont "d'anglais?"
 
-	para "Battle GYM LEADER,"
-	line "win you did?"
 	done
 
 Text_VeryNiceIndeed:
@@ -203,65 +202,63 @@ Text_HereTeacherIAm:
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "FUSEE."
+	text "Des idées macabres"
+	line "aparaissent dans"
+	cont "la FUSEE."
 
-	para "They said normal-"
-	line "type #MON moves"
+	para "Aparement les"
+	line "sujets normaux"
 
-	para "had no effect on"
-	line "ghosts."
+	para "ne font pas le"
+	line "poids face ä eux."
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "Oh, vous écrivez"
+	line "des #?"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
+	para "pourquoi ne pas"
+	line "aller les faire"
 
-	para "you'll be ready"
-	line "for prime time!"
+	para "évaluer ä la"
+	line "GYM?"
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, from the"
-	line "VIOLET #MON"
+	text "FALKNER, qui"
+	line "travaille ä"
 
-	para "GYM, is a fine"
-	line "trainer!"
+	para "la GYM, fait de"
+	line "bons articles."
 
-	para "He inherited his"
-	line "father's gym and"
+	para "Il tient sa "
+	line "passion de son"
 
-	para "has done a great"
-	line "job with it."
+	para "pére ornytholo"
+	line "-gue."
 	done
 
 VioletCityYoungsterText:
-	text "I saw a wiggly"
-	line "tree up ahead!"
+	text "J'ai vu un "
+	line "drole de"
+	cont "poireau!"
 
-	para "If you touch it,"
-	line "it squirms and"
-	cont "dances! Cool!"
+	para "Si on le touche,"
+	line "il frémit!"
 	done
 
 VioletCitySignText:
-	text "VIOLET CITY"
+	text "Sbrodj"
 
-	para "The City of"
-	line "Nostalgic Scents"
+	para "Ville fleurie"
 	done
 
 VioletGymSignText:
-	text "VIOLET CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	text "GYM de Sbrodj"
+	line "LEADER: FALKNER"
 
-	para "The Elegant Master"
-	line "of Flying #MON"
+	para "La plume élégante"
+	line "des drold'oiseaux."
 	done
 
 SproutTowerSignText:
@@ -272,7 +269,7 @@ SproutTowerSignText:
 	done
 
 EarlsPokemonAcademySignText:
-	text "EARL'S #MON"
+	text "EARL'S NERD"
 	line "ACADEMY"
 	done
 

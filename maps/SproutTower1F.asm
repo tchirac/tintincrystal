@@ -64,7 +64,7 @@ SageChowAfterBattleText:
 
 SproutTower1FSage1Text:
 	text "Tout en haut il"
-	line "y a de quoi etre"
+	line "y a de quoi étre"
 	cont "inspiré."
 	done
 

@@ -363,7 +363,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do GOLDENROD GAME"
+	para "Do Bruxelles GAME"
 	line "CORNER's slots"
 
 	para "have CHARMANDER"

@@ -243,12 +243,16 @@ CeruleanGymSignText:
 	done
 
 CeruleanBikeShopSignText:
-	text "There's a notice"
-	line "here…"
+	text "Il y a un mot:"
+	line "Trop d'impots,"
 
-	para "The BIKE SHOP has"
-	line "moved to GOLDENROD"
-	cont "CITY in JOHTO…"
+	para "le magasin de"
+	line "BIRKENSTOCKS a"
+	cont "déménagé" 
+
+	para "ä Bruxelles"
+	line "en Belgique."
+	cont "Ciao les nazes!"
 	done
 
 CeruleanPoliceSignText:

@@ -1,6 +1,6 @@
 _FruitBearingTreeText::
-	text "C'est un arbre"
-	line "ä baies."
+	text "On dirait un"
+	line "bougainvillier."
 	done
 
 _HeyItsFruitText::
@@ -28,8 +28,8 @@ _NothingHereText::
 	done
 
 _WhichApricornText::
-	text "Which APRICORN"
-	line "should I use?"
+	text "Quelle APRICORN"
+	line "dois-je utiliser?"
 	done
 
 _HowManyShouldIMakeText::
@@ -348,8 +348,8 @@ _LookAdorableDecoText::
 	done
 
 _LookGiantDecoText::
-	text "A giant doll! It's"
-	line "fluffy and cuddly."
+	text "Une poupée gonflée"
+	line "animomorphe."
 	done
 
 _MomHiHowAreYouText::
@@ -358,29 +358,29 @@ _MomHiHowAreYouText::
 	prompt
 
 _MomFoundAnItemText::
-	text "I found a useful"
-	line "item shopping, so"
+	text "Je vous ai acheté"
+	line "une surprise."
 	prompt
 
 _MomBoughtWithYourMoneyText::
-	text "I bought it with"
-	line "your money. Sorry!"
+	text "Je l'ai payée"
+	line "avec votre argent."
 	prompt
 
 _MomItsInPCText::
-	text "It's in your PC."
-	line "You'll like it!"
+	text "Récupérez-la"
+	line "depuis un PC!"
 	done
 
 _MomFoundADollText::
-	text "While shopping"
-	line "today, I saw this"
-	cont "adorable doll, so"
+	text "J'ai commandé une"
+	line "poupée gonflable"
+	cont "avec votre argent"
 	prompt
 
 _MomItsInYourRoomText::
-	text "It's in your room."
-	line "You'll love it!"
+	text "Elle est chez vous"
+	line "Vous adorerez!"
 	done
 
 _MonWasSentToText::
@@ -407,7 +407,7 @@ _MonNameBidsFarewellText::
 	done
 
 _TakeGoodCareOfMonText::
-	text "Take good care of"
+	text "Prenez soin de"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -424,7 +424,7 @@ _ForYourMonSendsText::
 
 _OTSendsText::
 	text_ram wOTTrademonSenderName
-	text " sends"
+	text " envoie"
 	line "@"
 	text_ram wOTTrademonSpeciesName
 	text "."
@@ -432,8 +432,8 @@ _OTSendsText::
 
 _WillTradeText::
 	text_ram wOTTrademonSenderName
-	text " will"
-	line "trade @"
+	text " va"
+	line "échanger @"
 	text_ram wOTTrademonSpeciesName
 	text_end
 
@@ -507,36 +507,37 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: Le petit"
+	line "Bonjour, c'est"
 	done
 
 _OPT_IntroText2::
 	text_start
-	line "20e on air!"
+	line "N. Sarkozylle,"
 	done
 
 _OPT_IntroText3::
 	text_start
-	line "Avec moi, MARY!"
+	line "et je vais vous"
 	done
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
-	text_ram wMonOrItemNameBuffer
+	line "lire le tonnerre"
+;	line "de @"
+;	text_ram wMonOrItemNameBuffer
 	text_end
 
 	text_end ; unused
 
 _OPT_OakText2::
 	text_start
-	line "may be seen around"
+	line "de Brest des "
 	done
 
 _OPT_OakText3::
 	text_start
-	line "@"
-	text_ram wStringBuffer1
+	line "tempétes." ;@"
+;	text_ram wStringBuffer1
 	text "."
 	done
 
@@ -960,44 +961,44 @@ _PnP_Text5::
 
 _RocketRadioText1::
 	text_start
-	line "… …Ahem, we are"
+	line "… …Ahem, ici"
 	done
 
 _RocketRadioText2::
 	text_start
-	line "TEAM ROCKET!"
+	line "LA TEAM ROCKET!"
 	done
 
 _RocketRadioText3::
 	text_start
-	line "After three years"
+	line "Aprés 3 ans"
 	done
 
 _RocketRadioText4::
 	text_start
-	line "of preparation, we"
+	line "de preparation,"
 	done
 
 _RocketRadioText5::
 	text_start
-	line "have risen again"
+	line "nous renaissons"
 	done
 
 _RocketRadioText6::
 	text_start
-	line "from the ashes!"
+	line "de nos cendres!"
 	done
 
 _RocketRadioText7::
 	text_start
 	line "GIOVANNI! @"
 	text_pause
-	text "Can you"
+	text "Vous"
 	done
 
 _RocketRadioText8::
 	text_start
-	line "hear?@"
+	line "captez?@"
 	text_pause
 	text " We did it!"
 	done
@@ -1006,14 +1007,14 @@ _RocketRadioText9::
 	text_start
 	line "@"
 	text_pause
-	text "Where is our boss?"
+	text "Boss?"
 	done
 
 _RocketRadioText10::
 	text_start
 	line "@"
 	text_pause
-	text "Is he listening?"
+	text "Ou étes vous?"
 	done
 
 _BuenaRadioText1::
@@ -1023,12 +1024,12 @@ _BuenaRadioText1::
 
 _BuenaRadioText2::
 	text_start
-	line "Today's password!"
+	line "Le mot de passe"
 	done
 
 _BuenaRadioText3::
 	text_start
-	line "Let me think… It's"
+	line "est"
 	done
 
 _BuenaRadioText4::
@@ -1040,12 +1041,12 @@ _BuenaRadioText4::
 
 _BuenaRadioText5::
 	text_start
-	line "Don't forget it!"
+	line "Ne l'oubliez pas!"
 	done
 
 _BuenaRadioText6::
 	text_start
-	line "I'm in GOLDENROD's"
+	line "RDV ä Bruxelles"
 	done
 
 _BuenaRadioText7::
@@ -1060,12 +1061,12 @@ _BuenaRadioMidnightText1::
 
 _BuenaRadioMidnightText2::
 	text_start
-	line "It's midnight! I"
+	line "il est minuit!"
 	done
 
 _BuenaRadioMidnightText3::
 	text_start
-	line "have to shut down!"
+	line "Je dois fermer!"
 	done
 
 _BuenaRadioMidnightText4::
@@ -1156,7 +1157,7 @@ Text_Warping::
 	done
 
 UnknownText_0x1bd05e::
-	text "Quel numbre"
+	text "Quel nombre"
 	line "doit étre changé?"
 	done
 
@@ -1285,7 +1286,7 @@ UnknownText_0x1bd286::
 
 UnknownText_0x1bd2a0::
 	text "Vous obtenez le"
-	line "VOLTORBBADGE!"
+	line "PIN'sVOLTOR!"
 	done
 
 _AskFloorElevatorText::
@@ -1404,7 +1405,8 @@ _NPCTradeCancelText1::
 
 _NPCTradeWrongText1::
 	text "Cornegidouille!"
-	line "C'est pas @"
+	line "Ce n'est pas"
+	cont "un @"
 	text_ram wStringBuffer1
 	text ". "
 	cont "Je suis deg'…"
@@ -1537,16 +1539,16 @@ _NPCTradeAfterText4::
 	done
 
 _MomLeavingText1::
-	text "Mon brave"
+	text "Cher"
 	line "M.<PLAYER>!"
 
 	para "…"
 
-	para "Donc, vous"
-	line "partez"
+	para "Vous partez"
+	line "donc"
 	cont "ä l'adventure…"
 
-	para "OK!"
+	para "Fort bien!"
 	line "Je vais vous"
 	cont "aider."
 
@@ -1567,18 +1569,18 @@ _MomLeavingText1::
 	done
 
 _MomLeavingText2::
-	text "OK, je vais"
+	text "Bien, je vais"
 	line "garder l'argent!!"
 
 	para "<……><……><……>"
 	prompt
 
 _MomLeavingText3::
-	text "Prennez garde,"
+	text "Prenez garde,"
 	line "M.<PLAYER>."
 
-	para "Vos #S sont vos"
-	line "amis, maintenant."
+	para "Un grand danger"
+	line "vous attend."
 
 	para "Bonne route!"
 	done

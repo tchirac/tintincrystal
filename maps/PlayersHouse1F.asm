@@ -294,6 +294,17 @@ InstructionsNextText:
 
 	para "Pratique, n'est ce"
 	line "pas?"
+
+	para "Cependant! Surtout"
+	line "ne prenez pas le"
+	cont "numéro d'inconnus!"
+
+	para "Ca fait crasher"
+	line "le jeu !"
+
+	para "Je vous aurais"
+	line "prévenu!"
+
 	done
 
 HurryUpElmIsWaitingText:

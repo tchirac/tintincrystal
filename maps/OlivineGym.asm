@@ -128,16 +128,16 @@ Jasmine_BetterTrainer:
 	line "LEAGUE rules, I"
 
 	para "confer upon you"
-	line "this BADGE."
+	line "this PIN'S."
 	done
 
 Text_ReceivedMineralBadge:
 	text "<PLAYER> received"
-	line "MINERALBADGE."
+	line "PIN'SMINERAL."
 	done
 
 Jasmine_BadgeSpeech:
-	text "MINERALBADGE"
+	text "PIN'SMINERAL"
 	line "raises #MON's"
 	cont "DEFENSE."
 

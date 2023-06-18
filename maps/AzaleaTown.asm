@@ -245,140 +245,136 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step_end
 
 AzaleaTownRivalBeforeText:
-	text "…Tell me some-"
-	line "thing."
+	text "Bon!"
 
-	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
+	para "Vous n'en avez pas"
+	line "marre du massacre"
+	cont "de franchise?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "C'est bon, on a"
+	line "compris, la blague"
+	cont "a assez duré!"
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "Vous allez jouer"
+	line "encore longtemps?"
 	done
 
 AzaleaTownRivalWinText:
-	text "… Humph! Useless"
-	line "#MON!"
-
-	para "Listen, you. You"
-	line "only won because"
-
-	para "my #MON were"
-	line "weak."
+	text "… Humph! Pauvres"
+	line "#S! Pitoyables!"
 	done
 
 AzaleaTownRivalAfterText:
-	text "I hate the weak."
+	text "Vos blagues sont"
+	line "nulles."
 
-	para "#MON, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "Ce ne sont méme"
+	line "pas des memes."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Ni des chiméres,"
+	line "ni des jeux de"
+	cont "mot. C'est nul."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "Ringard, pourri,"
+	line "moins que rien,"
+	cont "niveau zéro."
 
-	para "They act big and"
-	line "tough in a group."
+	para "Vous étes reporter,"
+	line "pas memelord."
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "La plaisanterie"
+	line "a assez duré."
 
-	para "I hate them all."
+	para "Arrétez lä."
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Je me casse."
 
-	para "like you is only a"
-	line "distraction."
+	para "Monde de merde."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "…Humph! Ca vous"
+	line "apprendra,"
+	cont "pauvre naze."
+
+	para "Fini de jouer."
+
+	para "Eteignez la "
+	line "console."
+	cont "Je report."
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
-
-	para "Aren't I a good"
-	line "Samaritan?"
+	text "Je garde l'entrée"
+	line "de la mine."
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
+	text "C'est le palais"
+	line "du roi. Il vous"
+	cont "faut une audience"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "pour pouvoir le"
+	line "voir."
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
-	line "disappeared from"
-	cont "town…"
+	text "La mine d'uranium"
+	line "intéresse beaucoup"
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "les constructeurs"
+	line "de fusées."
+
+	para "C'est ce qu'on"
+	line "dit."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
-	line "returned."
+	text "Les oursons sont"
+	line "partout!"
 
-	para "Knowing them, they"
-	line "could've just been"
-
-	para "goofing off some-"
-	line "where."
 	done
 
 AzaleaTownTeacherText:
-	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	text "Klow est une "
+	line "belle ville,"
+	cont "connue pour"
 
-	para "A lot of people do"
-	line "just that."
+	para "sa papeterie et"
+	line "sa mine d'uranium"
+
+	para "Tous les ans, le"
+	line "roi Ottokar y"
+
+	para "parade avec son"
+	line "sceptre."
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
-	line "and you'll be in"
-	cont "ILEX FOREST."
+	text "A l'ouest,"
+	line "c'est la forét"
+	cont "ILEX."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Les arburstes"
+	line "rendent sa trav-"
+	cont "ersée difficile."
 
-	para "impossible to get"
-	line "through."
+	para "Le mineur est"
+	line "aussi bucheron."
 
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
-	cont "down trees."
+	para "Mais il ne peut"
+	line "pas étre ä la"
+	cont "mine et au bois."
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "Ourson syldave:"
 
-	para "<……> <……> <……>"
+	para "…"
 	done
 
 AzaleaTownSlowpokeText2:
-	text "<……> <……>Yawn?"
+	text "Sandwich?"
 	done
 
 WoosterText:
@@ -386,71 +382,55 @@ WoosterText:
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
-	line "restless!"
-
-	para "What is going on?"
+	text "La forét ILEX"
+	line "est agitée!"
 	done
 
 AzaleaTownKurtText2:
-	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	text "<PLAYER>, voici"
+	line "votre caramel"
+	cont "spécial! ;) ;)"
 	done
 
 AzaleaTownKurtText3:
-	text "Could you go see"
-	line "why ILEX FOREST is"
-	cont "so restless?"
+	text "Vous devriez"
+	line "faire un tour"
+	cont "en forét."
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
-	line "Where People and"
+	text "KLOW,"
+	line "Capitale de"
+	cont "Syldavie."
 
-	para "#MON Live in"
-	line "Happy Harmony"
 	done
 
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "Pappeterie"
+	line "royale"
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
-
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	text "Palais du roi"
+	line "Ottokar IV"
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "Mine d'uranium:"
 
-	para "Also known as the"
-	line "RAINMAKER WELL."
+	para "Défense"
+	line "d'entrer."
 
-	para "Locals believe"
-	line "that a SLOWPOKE's"
-	cont "yawn summons rain."
-
-	para "Records show that"
-	line "a SLOWPOKE's yawn"
-
-	para "ended a drought"
-	line "400 years ago."
 	done
 
 CharcoalKilnSignText:
-	text "CHARCOAL KILN"
+	text "Mineur KILN"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "Forét ILEX"
 
-	para "Enter through the"
-	line "gate."
+	para "Frontiére ouverte."
 	done
 
 AzaleaTown_MapEvents:

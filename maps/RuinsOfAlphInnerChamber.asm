@@ -40,38 +40,35 @@ RuinsOfAlphInnerChamberStatue:
 	jumptext RuinsOfAlphInnerChamberStatueText
 
 RuinsOfAlphStrangePresenceText:
-	text "There is a strange"
-	line "presence here…"
+	text "Ca sent le lende-"
+	line "-main de soirée…"
 	done
 
 RuinsOfAlphInnerChamberFisherText:
-	text "This is a big"
-	line "room, but there's"
-	cont "nothing here."
+	text "J'ai un date…"
+	line "euh je veux dire"
+	
+	para "J'ai un rendez-"
+	line "-vous galant."
+
+	para "Croustille ne"
+	line "devrait pas"
+	cont "tarder."
 	done
 
 RuinsOfAlphInnerChamberTeacherText:
-	text "This place has a"
-	line "mystical quality"
-	cont "to it."
-
-	para "It feels sort of"
-	line "ethereal even."
+	text "C'est beau, mais"
+	line "c'est un peu"
+	cont "glauque, non?"
 	done
 
 RuinsOfAlphInnerChamberGrampsText:
-	text "Ancient buildings"
-	line "are often tombs of"
-	cont "kings."
-
-	para "Like the pyramids,"
-	line "for instance."
+	text "Je suis Ramses II"
 	done
 
 RuinsOfAlphInnerChamberStatueText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Un sarcophage"
+	line "pour égyptologue."
 	done
 
 RuinsOfAlphInnerChamber_MapEvents:

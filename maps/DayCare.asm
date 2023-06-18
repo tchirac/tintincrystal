@@ -80,7 +80,7 @@ Text_GrampsLookingForYou:
 
 Text_DayCareManTalksAboutEggTicket:
 	para "Il y a du nouveau"
-	line "ä GOLDENROD,"
+	line "ä Bruxelles,"
 
 	para "c'est le TRADE"
 	line "CORNER."

@@ -143,49 +143,45 @@ Route33FruitTree:
 	fruittree FRUITTREE_ROUTE_33
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "tunnel, but I"
+	text "Un étranger venu"
+	line "voir la nature"
+	cont "syldave?"
 
-	para "still have plenty"
-	line "of energy left."
+	para "Montrez-moi vos"
+	line "memes, étranger."
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "Whoa! C'est une"
+	line "autre culture!"
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best in the"
-	cont "mountains."
+	text "L'air syldave"
+	line "ca fait du"
+	cont "bien."
 	done
 
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
+	text "Ecrivez-vous sur"
 	line "DUNSPARCE?"
 
-	para "I caught one too."
-
-	para "Take a look at it"
-	line "in the light. It's"
-	cont "got a funny face!"
+	para "J'aimerais bien"
+	line "voir ca!"
 	done
 
 Route33LassText:
-	text "Pant, pant…"
+	text "Ouff, ouff…"
 
-	para "I finally got"
-	line "through that cave."
+	para "Je viens de sortir"
+	line "de cette grotte."
 
-	para "It was much bigger"
-	line "than I'd expected."
+	para "C'était bien plus"
+	line "grand que prévu."
 
-	para "I got too tired to"
-	line "explore the whole"
+	para "Je me suis"
+	line "épuisée."
 
-	para "thing, so I came"
-	line "outside."
 	done
 
 Route33SignText:

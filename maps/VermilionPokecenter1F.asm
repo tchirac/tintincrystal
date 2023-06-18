@@ -67,7 +67,7 @@ VermilionPokecenter1FSailorText:
 
 VermilionPokecenter1FBugCatcherText:
 	text "Oh? You have some"
-	line "BADGES I've never"
+	line "PIN's I've never"
 	cont "seen before."
 
 	para "Oh, I get it. You"

@@ -171,7 +171,7 @@ CeladonCityLassText_Mobile:
 	cont "buildings!"
 
 	para "Isn't it true that"
-	line "GOLDENROD #MON"
+	line "Bruxelles #MON"
 
 	para "CENTER was made"
 	line "much, much bigger?"

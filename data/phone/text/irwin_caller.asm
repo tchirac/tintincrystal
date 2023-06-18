@@ -9,7 +9,7 @@ IrwinRocketTakeoverRumorText:
 	text "<PLAY_G>, have you"
 	line "heard?"
 
-	para "GOLDENROD's RADIO"
+	para "Bruxelles's RADIO"
 	line "TOWER has been"
 
 	para "taken over by TEAM"
@@ -246,7 +246,7 @@ IrwinSoMuchToChatAboutText:
 
 	para "Where are you?"
 
-	para "How many BADGES do"
+	para "How many PIN's do"
 	line "you have now?"
 
 	para "How much money"

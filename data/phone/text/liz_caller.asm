@@ -174,7 +174,7 @@ LizSalonGossipText:
 	text "Listen, listen!"
 
 	para "There's a #MON"
-	line "SALON in GOLDENROD"
+	line "SALON in Bruxelles"
 
 	para "that's run by two"
 	line "brothers."
@@ -201,7 +201,7 @@ LizSalonGossipText:
 LizWhitneyGossipText:
 	text "Listen, listen!"
 
-	para "GOLDENROD GYM's"
+	para "Bruxelles GYM's"
 	line "WHITNEY began"
 
 	para "battling only a"

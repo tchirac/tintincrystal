@@ -146,12 +146,12 @@ ErikaBeatenText:
 	line "strong…"
 
 	para "I shall give you"
-	line "RAINBOWBADGE…"
+	line "PIN'S RAINBOW…"
 	done
 
 PlayerReceivedRainbowBadgeText:
 	text "<PLAYER> received"
-	line "RAINBOWBADGE."
+	line "PIN'S RAINBOW."
 	done
 
 ErikaExplainTMText:
@@ -213,11 +213,11 @@ PicnickerTanyaBeatenText:
 	done
 
 PicnickerTanyaAfterBattleText:
-	text "Oh, look at all"
-	line "your BADGES. No"
+	text "Oh, regardez-moi"
+	line "tous ces PIN'S!"
 
-	para "wonder I couldn't"
-	line "win!"
+	para "J'avais aucune"
+	line "chance!"
 	done
 
 BeautyJuliaSeenText:

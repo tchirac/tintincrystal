@@ -154,7 +154,7 @@ EcruteakPokecenter1F_BillText2:
 	line "#MON CENTERS."
 
 	para "I have to hurry on"
-	line "back to GOLDENROD"
+	line "back to Bruxelles"
 	cont "and see my folks."
 
 	para "Buh-bye!"

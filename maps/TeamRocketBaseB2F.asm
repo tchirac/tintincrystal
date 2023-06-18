@@ -750,7 +750,7 @@ RocketBaseLanceWhirlpoolText:
 	para "You can use that"
 	line "out of battle only"
 
-	para "with the BADGE"
+	para "with the PIN'S"
 	line "from MAHOGANY GYM."
 	done
 

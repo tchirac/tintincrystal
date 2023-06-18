@@ -18,30 +18,33 @@ Route32RuinsOfAlphGateYoungsterScript:
 	jumptextfaceplayer Route32RuinsOfAlphGateYoungsterText
 
 Route32RuinsOfAlphGateOfficerText:
-	text "RUINS OF ALPH"
-
-	para "A Look-and-Touch"
-	line "Tourist Site"
-
-	para "Try the sliding"
-	line "stone panels!"
+	text "Bienvenue sur ce"
+	line "site historique"
+	cont "pharaonique!"
 	done
 
 Route32RuinsOfAlphGatePokefanMText:
-	text "You're studying"
-	line "the RUINS?"
+	text "Les fameux cigy"
+	line "du pharaon."
+	cont "Vous connaissez?"
 
-	para "I see a scientist"
-	line "in the making."
+	para "Ils sont origin-"
+	line "aires de ces"
+	cont "ruines, dit-on."
+
+	para "Mais moi tout"
+	line "ce que j'y vois,"
+
+	para "c'est de la" 
+	line "réclame bien"
+	cont "ficellée!"
 	done
 
 Route32RuinsOfAlphGateYoungsterText:
-	text "There are drawings"
-	line "on stone panels."
+	text "Ca pue le tabac."
 
-	para "I tried moving"
-	line "them. I wonder"
-	cont "what they are."
+	para "Méme leur puzzle,"
+	line "il pue le tabac!"
 	done
 
 Route32RuinsOfAlphGate_MapEvents:

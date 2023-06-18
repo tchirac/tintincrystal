@@ -90,8 +90,9 @@ MomCheckBalanceText:
 	done
 
 MomImportantToSaveText:
-	text "C'est imprtant"
-	line "d'économiser."
+	text "C'est quand"
+	line "méme bien,"
+	cont "la moula."
 	done
 
 MomYoureNotSavingText:

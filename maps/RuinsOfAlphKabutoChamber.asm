@@ -146,111 +146,114 @@ RuinsOfAlphKabutoChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "Bienvenue dans"
+	line "le tombeau du"
+	cont "pharaon."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "On dit que c'est"
+	line "d'ici que"
+	cont "viennent les"
 
-	para "a #MON drawn by"
-	line "the ancients."
+	para "fameux cigares"
+	line "du pharaon!"
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
+	para "D'aucun disent"
+	line "qu'il y a"
+	cont "vraiment un"
 
-	para "To the right is a"
-	line "description of the"
-	cont "#MON."
+	para "tombeau égyptien,"
+	line "porteur d'une"
+	cont "malédiction."
 
-	para "Scientists in the"
-	line "back are examining"
+	para "Vous ne devriez"
+	line "pas trop fouiner."
 
-	para "some newly found"
-	line "patterns."
 	done
 
 RuinsOfAlphKabutoChamberScientistCrypticText:
-	text "Recently, strange,"
-	line "cryptic patterns"
-	cont "have appeared."
+	text "Récement, de"
+	line "bien étranges"
+	cont "symboles sont"
 
-	para "It's odd. They"
-	line "weren't here a"
-	cont "little while ago…"
+	para "apparus sur les"
+	line "murs."
+	
+	para "Un peu"
+	line "comme la marque"
+	cont "de cigares, lä…"
 
-	para "You should take a"
-	line "look at the walls."
+	para "Etrange."
 	done
 
 RuinsOfAlphKabutoChamberScientistHoleText:
-	text "Ah! Here's another"
-	line "huge hole!"
+	text "Ah! Encore un"
+	line "enOrme trou!"
 
-	para "It's big enough to"
-	line "go through!"
+	para "C'est assez grand"
+	line "pour y entrer!"
 	done
 
 RuinsOfAlphKabutoChamberScientistTremorText:
-	text "That tremor was"
-	line "pretty scary!"
+	text "Ce tremblement"
+	line "était effrayant!"
 
-	para "But I'm more"
-	line "concerned about"
-	cont "this wall here…"
+	para "Mais voyez plutot"
+	line "ce mur…"
 	done
 
 RuinsOfAlphKabutoChamberUnusedText:
 ; unused
-	text "The patterns on"
-	line "the wall appear to"
-	cont "be words!"
+	text "Les symbols sur"
+	line "les murs forment"
+	cont "des mots!"
 
-	para "And those sliding"
-	line "stone panels seem"
+	para "Et ces puzzles"
+	line "resemblent ä"
 
-	para "to be signals of"
-	line "some kind."
+	para "une mise en"
+	line "garde."
 
-	para "I think they make"
-	line "#MON appear,"
+	para "Mais ce n'est pas"
+	line "trés clair…"
 
-	para "but it's not clear"
-	line "yet…"
+	para "La seule chose"
+	line "claire, c'est que"
+	cont "Je suis Ramses II."
 	done
 
 RuinsOfAlphKabutoChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Des symboles sont"
+	line "apparus sur les"
+	cont "murs…"
 	done
 
 RuinsOfAlphKabutoChamberUnownText:
 ; unused
-	text "It's UNOWN text!"
+	text "Ces symboles"
+	line "formemnt un texte!"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Des symboles sont"
+	line "apparus sur les"
+	cont "murs…"
 	done
 
 RuinsOfAlphKabutoChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text "Il y a un gros"
+	line "trou dans le mur!"
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Un sarcophage...!"
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #MON that hid"
-	line "on the sea floor."
+	text "Ce message doit"
+	line "bien avoir un"
+	cont "sens, mais"
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "lequel?"
 	done
 
 RuinsOfAlphKabutoChamber_MapEvents:

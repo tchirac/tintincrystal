@@ -1,13 +1,11 @@
 NurseMornText:
 	text "Bien le bonjour!"
-	line "Bienvenue"
-	cont "aux PTT."
+	line "Bienvenue aux PTT."
 	done
 
 NurseDayText:
 	text "Bonjour!"
-	line "Bienvenue"
-	cont "aux PTT."
+	line "Bienvenue aux PTT."
 	done
 
 NurseNiteText:
@@ -50,7 +48,7 @@ PokeComNurseNiteText:
 	done
 
 NurseAskHealText:
-	text "On peut envoyer"
+	text "Nous pouvons faxer"
 	line "vos brouillons"
 	cont "au petit 20e"
 
@@ -102,7 +100,7 @@ PokeComNursePokerusText:
 	para "..."
 	line "pour une fois."
 
-	para "C'est peut etre"
+	para "C'est peut étre"
 	line "contagieux,"
 	cont "qui sait ?"
 
@@ -191,7 +189,7 @@ TrashCanText:
 
 ; not used
 	text "Une # devrait"
-	line "bouger ça."
+	line "bouger ca."
 	done
 
 ; not used

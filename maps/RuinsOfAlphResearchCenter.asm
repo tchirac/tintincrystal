@@ -190,34 +190,34 @@ MovementData_0x59276:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Done!"
+	text "Fait!"
 
-	para "I modified your"
-	line "#DEX."
+	para "J'ai ajouté un"
+	line "abécédaire"
 
-	para "I added an"
-	line "optional #DEX"
+	para "à votre #DEX!"
+	line "Ca devrait vous"
 
-	para "to store UNOWN"
-	line "data."
+	para "aider ä écrire"
+	line "vos articles."
 
-	para "It records them in"
-	line "the sequence that"
-	cont "they were caught."
+	para "Essayez de le"
+	line "remplir dans"
+	cont "l'ordre."
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #DEX"
-	line "was upgraded."
+	text "Le #DEX"
+	line "a été upgradé."
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The UNOWN you"
-	line "catch will all be"
-	cont "recorded."
+	text "Les cigares que"
+	line "vous collectionnez"
+	cont "y seront ajoutés."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "Essayez de savoir"
+	line "combien il y en a."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
@@ -236,30 +236,29 @@ RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	done
 
 RuinsOfAlphResearchCenterScientist1Text:
-	text "The RUINS are"
-	line "about 1500 years"
-	cont "old."
+	text "Ces ruines ont"
+	line "plus de 1500 ans!"
 
-	para "But it's not known"
-	line "why they were"
-	cont "built--or by whom."
+	para "On ne sait qui"
+	line "les a érigées"
+	cont "ni pourquoi."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
-	text "I wonder how many"
-	line "kinds of #MON"
-	cont "are in the RUINS?"
+	text "Je me demande ce"
+	line "que tous ces ci-"
+	cont "gares fichent ici?"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#MON appeared"
-	line "in the RUINS?"
+	text "Des cigares dans"
+	line "les ruines?"
 
-	para "That's incredible"
-	line "news!"
+	para "C'est pour le"
+	line "moins étrange!"
 
-	para "We'll need to"
-	line "investigate this."
+	para "Nous devons "
+	line "enquéter."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
@@ -277,34 +276,33 @@ RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
-	text "There are odd pat-"
-	line "terns drawn on the"
+	text "Il y a d'étranges"
+	line "symboles sur les"
 
-	para "walls of the"
-	line "RUINS."
+	para "parois dans les"
+	line "ruines."
 
-	para "They must be the"
-	line "keys for unravel-"
-	cont "ing the mystery"
-	cont "of the RUINS."
+	para "C'est de la"
+	line "réclame un peu"
+	cont "trop agressive."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
-	text "The strange #-"
-	line "MON you saw in the"
-	cont "RUINS?"
+	text "Les étranges ci-"
+	line "gares trouvés"
+	cont "dans les ruines?"
 
-	para "They appear to be"
-	line "very much like the"
+	para "Leurs symboles "
+	line "ressemblent à"
 
-	para "drawings on the"
-	line "walls there."
+	para "ceux présents sur"
+	line "les murs."
 
 	para "Hmm…"
 
-	para "That must mean"
-	line "there are many"
-	cont "kinds of them…"
+	para "Cela signifie"
+	line "qu'il y a"
+	cont "plein de parfums…"
 	done
 
 RuinsOfAlphResearchCenterUnusedText1:
@@ -406,6 +404,6 @@ RuinsOfAlphResearchCenter_MapEvents:
 	bg_event  7,  1, BGEVENT_READ, RuinsOfAlphResearchCenterPrinter
 
 	db 3 ; object events
-	object_event  4,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphResearchCenterScientist1Script, -1
-	object_event  5,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphResearchCenterScientist2Script, -1
+	object_event  4,  5, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphResearchCenterScientist1Script, -1
+	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphResearchCenterScientist2Script, -1
 	object_event  2,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphResearchCenterScientist3Script, EVENT_RUINS_OF_ALPH_RESEARCH_CENTER_SCIENTIST

@@ -153,7 +153,7 @@ MovementData_0x184a24:
 
 SproutTowerElderLecturesRivalText:
 	text "Pr TOURNESOL: "
-	line "…ple, avec sa"
+	line "…-emple, avec sa"
 	cont "signature,"
 
 	para "tout le monde "
@@ -192,19 +192,18 @@ SageLiTakeThisFlashText:
 
 	para "prendre ces"
 	line "petites lampes pour"
-	cont "élairer vos articles"
+	cont "élairer vos notes."
 	done
 
 SageLiFlashExplanationText:
-	text "FLASH illuminates"
-	line "even the darkest"
-	cont "of all places."
+	text "FLASH illumines"
+	line "les caves."
 
-	para "But to use it out"
-	line "of battle, you"
+	para "Mais il vous"
+	line "faut l'appro-"
+	cont "-bation de la"
 
-	para "need the BADGE"
-	line "from VIOLET's GYM."
+	para "GYM de VIOLET."
 	done
 
 SageLiAfterBattleText:

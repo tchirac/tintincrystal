@@ -10,7 +10,7 @@ VermilionPortPassageTeacherScript:
 	jumptextfaceplayer VermilionPortPassageTeacherText
 
 VermilionPortPassageTeacherText:
-	text "The FAST SHIP"
+	text "Le Karaboudjan"
 	line "sails on Wednes-"
 	cont "days and Sundays"
 	cont "every week."

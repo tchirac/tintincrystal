@@ -252,13 +252,13 @@ JanineText_ToughOne:
 	line "tough one. You"
 	cont "definitely won…"
 
-	para "Here's SOULBADGE."
+	para "Here's PIN'sSOUL."
 	line "Take it."
 	done
 
 Text_ReceivedSoulBadge:
 	text "<PLAYER> received"
-	line "SOULBADGE."
+	line "PIN'sSOUL."
 	done
 
 JanineText_ToxicSpeech:

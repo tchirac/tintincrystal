@@ -111,172 +111,155 @@ VioletGymStatue:
 	jumpstd gymstatue2
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
-	cont "leader!"
+	text "Je suis FALKNER,"
+	line "le rédac chef"
 
-	para "People say you can"
-	line "clip flying-type"
+	para "de la revue de"
+	line "quartier."
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "On dit que vous"
+	line "étes journaliste."
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
+	para "J'aimerais bien"
+	line "voir ca!"
+	cont "Montrer-moi"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "de quoi vous"
+	line "étes capables"
+	cont "avec vos #S!"
 
-	para "magnificent bird"
-	line "#MON!"
+	para "La route vers"
+	line "la publication"
+	cont "est longue!"
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
+	text "…Enfer! Mes"
+	line "plus beaux"
+	cont "articles…"
 
-	para "All right."
-	line "Take this."
+	para "Ok."
+	line "Prends ca."
 
-	para "It's the official"
-	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	para "C'est le pin's"
+	line "officiel qui"
+	cont "reconnait ton"
+
+	para "talent: le"
+	line "pin's zéphyr."
 	done
 
 ReceivedZephyrBadgeText:
-	text "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	text "<PLAYER> recoit"
+	line "Pin's zéphyr."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #MON."
+	text "Ce pin's rend"
+	line "vos punchlines"
+	cont "plus agressives."
 
-	para "It also enables"
-	line "#MON to use"
+	para "il permet aussi"
+	line "d'utiliser FLASH"
 
-	para "FLASH, if they"
-	line "have it, anytime."
-
-	para "Here--take this"
-	line "too."
+	para "dans les grottes."
 	done
 
 FalknerTMMudSlapText:
-	text "By using a TM, a"
-	line "#MON will"
+	text "Prenez aussi cette"
+	line "TM. C'est un sujet"
+	cont "que vous pouvez"
 
-	para "instantly learn a"
-	line "new move."
+	para "choisir de traiter"
+	line "dans l'un de vos"
 
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
+	para "articles."
+	line "Choisissez-bien,"
+	cont "car ce n'est"
 
-	para "TM31 contains"
-	line "MUD-SLAP."
-
-	para "It reduces the"
-	line "enemy's accuracy"
-
-	para "while it causes"
-	line "damage."
-
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "utilisable que"
+	line "sur une seule"
+	cont "#."
 	done
 
 FalknerFightDoneText:
-	text "There are #MON"
-	line "GYMS in cities and"
-	cont "towns ahead."
+	text "Il y a d'autres"
+	line "sites de rédaction"
+	cont "ailleurs."
 
-	para "You should test"
-	line "your skills at"
-	cont "these GYMS."
+	para "Vous devriez voir"
+	line "lä bas si j'y suis"
 
-	para "I'm going to train"
-	line "harder to become"
+	para "ou pour voir ce"
+	line "que les vrais"
+	cont "pros en pensent,"
 
-	para "the greatest bird"
-	line "master!"
+	para "de vos torchons."
 	done
 
 BirdKeeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
+	text "Tes articles"
+	line "doivent avoir"
+	cont "du chien!"
 
-	para "Those here are"
-	line "training night and"
+	para "Du chien écrasé,"
+	line "c'est encore"
+	cont "mieux!"
 
-	para "day to become bird"
-	line "#MON masters."
-
-	para "Come on!"
 	done
 
 BirdKeeperRodBeatenText:
-	text "Gaaah!"
+	text "Aaah!"
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
-	line "are for real!"
+	text "FALKNER sait de"
+	line "quoi il parle!"
 
-	para "Don't get cocky"
-	line "just because you"
-	cont "beat me!"
+	para "J.P Pernaud, c'est"
+	line "du pipi de chat"
+	cont "pour lui!"
 	done
 
 BirdKeeperAbeSeenText:
-	text "Let me see if you"
-	line "are good enough to"
-	cont "face FALKNER!"
+	text "Voyons ce dont tu"
+	line "es capable!"
 	done
 
 BirdKeeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "Impossible!"
 	done
 
 BirdKeeperAbeAfterBattleText:
-	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	text "C'est si nul,"
+	line "mais je suis bien"
+	cont "pire…"
 	done
 
 VioletGymGuyText:
-	text "Hey! I'm no train-"
-	line "er but I can give"
-	cont "some advice!"
+	text "Eh! Je suis juste"
+	line "le gars de"
+	cont "l'accueil!"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Vous voulez"
+	line "évaluez vos "
 
-	para "championship dream"
-	line "can come true."
+	para "arguments face"
+	line "aux oiseaux?"
 
-	para "You believe?"
-	line "Then listen."
+	para "Ne parlez pas"
+	line "de plante."
 
-	para "The grass-type is"
-	line "weak against the"
-
-	para "flying-type. Keep"
-	line "this in mind."
+	para "Vous vous ridi-"
+	line "culiseriez!"
 	done
 
 VioletGymGuyWinText:
-	text "Nice battle! Keep"
-	line "it up, and you'll"
+	text "Belle perf!"
+	line "Vous avez été"
 
-	para "be the CHAMP in no"
-	line "time at all!"
+	para "convaincant!"
+	line "Continuez!"
 	done
 
 VioletGym_MapEvents:

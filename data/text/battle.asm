@@ -46,16 +46,16 @@ WantsToBattleText::
 	prompt
 
 BattleText_WildFled:
-	text "Finalement,"
-	text "chassons "
+	text "Chassons "
 	text "@"
 	text_ram wEnemyMonNick
 	text_start
-	line "de notre espit!"
+	line "de notre esprit!"
 	prompt
 
 BattleText_EnemyFled:
-	text "Chassons @"
+	text "Chassons "
+	text "@"
 	text_ram wEnemyMonNick
 	text_start
 	line "de notre esprit!"
@@ -63,7 +63,7 @@ BattleText_EnemyFled:
 
 HurtByPoisonText:
 	text "<USER>…"
-	line "Ca ne veut rien dire…"
+	line "pff… aucun sens!"
 	prompt
 
 HurtByBurnText:
@@ -182,7 +182,7 @@ GotMoneyForWinningText:
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "est vaincue!"
+	line "est ä terre!"
 	prompt
 
 TiedAgainstText:
@@ -318,7 +318,7 @@ BattleText_ItemsCantBeUsedHere:
 BattleText_MonIsAlreadyOut:
 	text_ram wBattleMonNick
 	text_start
-	line "es déjä KO."
+	line "y est déjä."
 	prompt
 
 BattleText_MonCantBeRecalled:
@@ -351,10 +351,10 @@ BattleText_TargetsEncoreEnded:
 
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
-	text " monte au"
-	line "niveau @"
+	text " compte"
+	line "désormais @"
 	text_decimal wCurPartyLevel, 1, 3
-	text "!@"
+	text "pages!@"
 	sound_dex_fanfare_50_79
 	text_end
 
@@ -840,7 +840,7 @@ SubFadedText:
 
 MimicLearnedMoveText:
 	text "<USER>"
-	line "apprends"
+	line "aborde"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"

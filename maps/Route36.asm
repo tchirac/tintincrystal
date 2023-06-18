@@ -409,212 +409,209 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	text "Drole d'asperge."
+	line "Passer au Karsher?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	text "<PLAYER> passe"
+	line "au Karsher."
 	done
 
 SudowoodoAttackedText:
-	text "The weird tree"
-	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	text "Tiens, tiens,"
+	line "elle n'aime pas"
+	cont "ca!"
 
-	para "The weird tree"
-	line "attacked!"
+	para "C'est de la"
+	line "rocaille!"
 	done
 
 FloriaText1:
 	text "I'm the FLOWER"
 	line "SHOP's FLORIA!"
 
-	para "Listen, listen!"
+	para "Ecoute, écoute!"
+	cont "C'est la Redoute."
 
-	para "When I sprinkled"
-	line "water on that"
+	para "Quand j'ai mouillé"
+	line "cette grosse "
+	cont "asperge, elle"
 
-	para "wiggly tree, it"
-	line "jumped right up!"
+	para "a sauté en l'air"
+	line "d'un coup!"
 
-	para "It just has to be"
-	line "a #MON."
+	para "On doit pouvoir"
+	line "écrire un truc"
+	cont "là dessus."
 
-	para "I bet it would be"
-	line "shocked out of its"
+	para "Je pense qu'elle"
+	line "se révélera si"
+	cont "on l'asperge!"
 
-	para "disguise if you"
-	line "soaked it!"
-
-	para "I know! I'll tell"
-	line "my sis and borrow"
-	cont "her water bottle!"
+	para "Je sais! Je vais"
+	line "en parler à"
+	cont "Nicolas Sarcozy!"
 	done
 
 FloriaText2:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Quand j'ai parlé"
+	line "de l'asperge ä"
 
-	para "tree, she said"
-	line "it's dangerous."
+	para "Nicolas, il a"
+	line "dit qu'il fallait"
+	cont "s'en débarrasser."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
-
-	para "lend me her water"
-	line "bottle…"
+	para "Si on bat Blanche,"
+	line "il nous donnera"
+	cont "carte blanche…"
 	done
 
 RockSmashGuyText1:
-	text "Wa-hey!"
+	text "Aille! Ouille!"
 
-	para "I was going to"
-	line "snap that tree"
+	para "J'ai voulu"
+	line "frapper cette"
+	cont "drole d'asperge"
 
-	para "with my straight-"
-	line "arm punch."
+	para "comme un sac de"
+	line "boxe."
 
-	para "But I couldn't!"
-	line "I'm a failure!"
+	para "Ca m'a détruit le"
+	line "poing!"
 	done
 
 RockSmashGuyText2:
-	text "Did you clear that"
-	line "wretched tree?"
+	text "Tu as réussi"
+	line "ä dégager"
+	cont "l'asperge?"
 
-	para "I'm impressed!"
-	line "I want you to"
-	cont "have this."
+	para "Je suis"
+	line "impressionné!"
+	cont "Prends ca."
 	done
 
 UnusedReceivedTM08Text:
-	text "<PLAYER> received"
+	text "<PLAYER> recoit"
 	line "TM08."
 	done
 
 RockSmashGuyText3:
-	text "That happens to be"
+	text "C'est"
 	line "ROCK SMASH."
 
-	para "You can shatter"
-	line "rocks with just a"
+	para "Tu peux ouvrir"
+	line "les bocaux"
 
-	para "single well-aimed"
-	line "smack."
+	para "d'asperge"
+	line "(généreux)"
 
-	para "If any rocks are"
-	line "in your way, just"
-	cont "smash 'em up!"
+	para "Sans passer"
+	line "par le"
+	cont "couvercle!"
 	done
 
 UnusedOddTreeText:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Une drole "
+	line "d'asperge bloque"
+	cont "la route."
 
-	para "I wanted to go see"
-	line "the huge #MON"
+	para "Je voulais voir"
+	line "le musée neuf"
 
-	para "CENTER they just"
-	line "opened…"
+	para "de postes et"
+	line "communications…"
 	done
 
 Route36LassText:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Une caliss"
+	line "d'asperge bloque"
+	cont "la route."
 
-	para "It's preventing"
-	line "me from shopping."
-
-	para "Something should"
-	line "be done about it."
+	para "Ca m'empeche de"
+	line "magasiner."
 	done
 
 Route36LassText_ClearedSudowoodo:
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "Cette drole"
+	line "d'asperge a disparu"
+	cont "d'un coup."
 
-	para "Oh! That tree was"
-	line "really a #MON?"
+	para "Oh! C'était de la"
+	line "rocaille?"
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "Je vais lire"
+	line "tes pensées!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "Esprit tordu!"
 	done
 
 PsychicMarkAfterBattleText:
-	text "I'd be strong if"
-	line "only I could tell"
+	text "Je serais fort"
+	line "si je lisais les"
 
-	para "what my opponent"
-	line "was thinking."
+	para "pensées de mes"
+	line "interloculteurs."
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #MON!"
+	text "Gräce ä mes"
+	line "études, j'ai des"
+	cont "idées brillantes!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "Oops! Idée pas"
+	line "top top?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Damned. Je lis"
+	line "beaucoup, mais"
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "j'ai jamais lu"
+	line "un truc pareil"
+	cont "de ma vie."
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
-	line "you?"
+	text "JEDI: Qui"
+	line "ëtes-vous?"
 
-	para "I'm ARTHUR of"
-	line "Thursday."
+	para "Je suis un JEDI"
+	line "du JEUDI."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Tiens. Tu peux"
+	line "prendre ca."
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
-	line "that uses rock-"
+	text "JEDI: Epingle"
+	line "-le sur un article"
 
-	para "type moves should"
-	line "hold on to that."
-
-	para "It pumps up rock-"
-	line "type attacks."
+	para "de roche."
+	line "Pour nos familles"
+	cont "et nos proches."
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
-	line "of Thursday. I'm"
+	text "JEDI: Je sui un"
+	line "JEDI du JEUDI."
 
-	para "the second son out"
-	line "of seven children."
+	para "Le 2e fils des"
+	line "sept nains."
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
-	line "not Thursday. How"
-	cont "disappointing."
+	text "JEDI: JEUDI"
+	line "je serai élu au"
+	cont "rang de maitre."
 	done
 
 Route36SignText:
@@ -622,39 +619,34 @@ Route36SignText:
 	done
 
 RuinsOfAlphNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	text "RUINS D'ALPH"
+	line "ENTREE NORD"
 	done
 
 Route36TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "CONSEILS"
 
-	para "#MON stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Deux notes"
+	line "identiques sont"
 
-	para "Their stats may be"
-	line "similar at first."
+	para "différentes"
+	line "dans le fond."
 
-	para "However, differ-"
-	line "ences will become"
-
-	para "pronounced as the"
-	line "#MON grow."
+	para "En s'étoffant,"
+	line "leurs différences"
+	cont "vont s'accentuer."
 	done
 
 Route36TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "CONSEILS"
 
-	para "Use DIG to return"
-	line "to the entrance of"
-	cont "any place."
+	para "Creusez un "
+	line "tunnel pour"
+	cont "retrouver"
 
-	para "It is convenient"
-	line "for exploring"
-
-	para "caves and other"
-	line "landmarks."
+	para "l'entrée d'un"
+	line "tunnel ou d'une"
+	para "cave."
 	done
 
 Route36_MapEvents:

@@ -171,7 +171,7 @@ GuitaristClydeSeenText:
 	text "I'm going to audi-"
 	line "tion my songs at"
 
-	para "GOLDENROD's RADIO"
+	para "Bruxelles' RADIO"
 	line "STATION."
 	done
 
