@@ -15,13 +15,13 @@ To set up the repository, see [INSTALL.md](INSTALL.md).
 - **Discord:** [pret][discord]
 
 
-[discordtintincrystal]: https://discord.gg/Acqf3fSF
+[discordtintincrystal]: https://discord.gg/tZhdxvu4
 
 [pokecrystal]: https://github.com/pret/pokecrystal
 [docs]: https://pret.github.io/pokecrystal/
 [wiki]: https://github.com/pret/pokecrystal/wiki
 [tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
-[discord]: https://discord.gg/d5dubZ3
+[discord]: https://discord.gg/tZhdxvu4 
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
 
 
